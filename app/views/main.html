@@ -21,6 +21,7 @@
       .scale(2000);
 
   var path = d3.geoPath().projection(projection);
+  var scale = d3.scaleLinear();
 
   d3.queue()
     .defer(d3.json, "br.json")
@@ -34,6 +35,10 @@
     var estados = topojson.feature(br, br.objects.geo_estados);
     var municipios = topojson.feature(sab, sab.objects.municipios_sab);
 
+    scale
+      .domain([0, 1])
+      .range(d3.schemePuBu[9]);
+
     svg.selectAll(".estados")
       .data(estados.features)
     .enter().append("path")
@@ -41,7 +46,6 @@
       .attr("d", path)
       .attr("class", "brasil");
 
-    console.log(beneficiados[0]);
     svg.selectAll(".municipios")
       .data(municipios.features)
     .enter().append("path")
@@ -50,8 +54,20 @@
       .attr("class", "semiarido");
 
     for (var i = 0; i < beneficiados.length; i++) {
-      svg.select("#m-" + beneficiados[i].codigo_ibg)
-        .attr("class", "beneficiados");
+      // console.log(beneficiados[i].agua / beneficiados[i].populacao);
+      // console.log(beneficiados[i].nome);
+      if (beneficiados[i].agua/beneficiados[i].populacao > 1) {
+        console.log(beneficiados[i]);
+      }
+      if (beneficiados[i].agua && beneficiados[i].populacao) {
+        svg.select("#m-" + beneficiados[i].codigo_ibg)
+          .attr("class", "beneficiados")
+          .attr("fill", scale(beneficiados[i].agua / beneficiados[i].populacao));
+      } else {
+        svg.select("#m-" + beneficiados[i].codigo_ibg)
+          .attr("class", "beneficiados")
+          .attr("fill", "#ffff80");
+      }
     }
   }
   </script>
