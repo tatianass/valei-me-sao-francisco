@@ -4,8 +4,8 @@
 
 <script>
   var
-      width = 1000,
-      height = 800;
+      width = 800,
+      height = 400;
 
   var svg = d3.select("#chart")
       .append("svg")
@@ -15,19 +15,20 @@
       .attr('class', 'map-chart');
 
   var projection = d3.geoAlbers()
-      .center([-55, -7.2334128])
+      .center([-35, -8.4])
       .rotate([0, 0])
       .parallels([0, 0])
-      .scale(1200);
+      .scale(2000);
 
   var path = d3.geoPath().projection(projection);
 
   d3.queue()
     .defer(d3.json, "br.json")
     .defer(d3.json, "sab.json")
+    .defer(d3.csv, "municipios_beneficiados.csv")
     .await(draw);
 
-  function draw(error, br, sab) {
+  function draw(error, br, sab, beneficiados) {
     if (error) throw error;
 
     var estados = topojson.feature(br, br.objects.geo_estados);
@@ -38,13 +39,19 @@
     .enter().append("path")
       .attr("id", function(d) { return "uf-"+d.properties.sigla; })
       .attr("d", path)
-      .style("opacity", 1);
+      .attr("class", "brasil");
 
+    console.log(beneficiados[0]);
     svg.selectAll(".municipios")
       .data(municipios.features)
     .enter().append("path")
-      .attr("id", function(d) { return "mn-"+d.properties.ID; })
+      .attr("id", function(d) { return "m-"+d.properties.ID; })
       .attr("d", path)
-      .attr("fill", "red");
+      .attr("class", "semiarido");
+
+    for (var i = 0; i < beneficiados.length; i++) {
+      svg.select("#m-" + beneficiados[i].codigo_ibg)
+        .attr("class", "beneficiados");
+    }
   }
   </script>
