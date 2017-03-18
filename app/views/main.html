@@ -1,3 +1,50 @@
 <div class="container">
-  <h1> Valei-me São Francisco </h1>
+  <div id="chart"></div>
 </div>
+
+<script>
+  var
+      width = 1000,
+      height = 800;
+
+  var svg = d3.select("#chart")
+      .append("svg")
+      .attr('version', '1.1')
+      .attr('viewBox', '0 0 '+width+' '+height)
+      .attr('width', '100%')
+      .attr('class', 'map-chart');
+
+  var projection = d3.geoAlbers()
+      .center([-55, -7.2334128])
+      .rotate([0, 0])
+      .parallels([0, 0])
+      .scale(1200);
+
+  var path = d3.geoPath().projection(projection);
+
+  d3.queue()
+    .defer(d3.json, "br.json")
+    .defer(d3.json, "sab.json")
+    .await(draw);
+
+  function draw(error, br, sab) {
+    if (error) throw error;
+
+    var estados = topojson.feature(br, br.objects.geo_estados);
+    var municipios = topojson.feature(sab, sab.objects.municipios_sab);
+
+    svg.selectAll(".estados")
+      .data(estados.features)
+    .enter().append("path")
+      .attr("id", function(d) { return "uf-"+d.properties.sigla; })
+      .attr("d", path)
+      .style("opacity", 1);
+
+    svg.selectAll(".municipios")
+      .data(municipios.features)
+    .enter().append("path")
+      .attr("id", function(d) { return "mn-"+d.properties.ID; })
+      .attr("d", path)
+      .attr("fill", "red");
+  }
+  </script>
