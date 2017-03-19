@@ -54,11 +54,11 @@
       .attr("class", "semiarido");
 
     for (var i = 0; i < beneficiados.length; i++) {
-      // console.log(beneficiados[i].agua / beneficiados[i].populacao);
-      // console.log(beneficiados[i].nome);
-      if (beneficiados[i].agua/beneficiados[i].populacao > 1) {
-        console.log(beneficiados[i]);
-      }
+      //console.log(beneficiados[i].agua / beneficiados[i].populacao);
+      //console.log(beneficiados[i]);
+      //if (beneficiados[i].agua/beneficiados[i].populacao > 1) {
+        //console.log(beneficiados[i]);
+      //}
       if (beneficiados[i].agua && beneficiados[i].populacao) {
         svg.select("#m-" + beneficiados[i].codigo_ibg)
           .attr("class", "beneficiados")
