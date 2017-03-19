@@ -1,4 +1,14 @@
 <div class="container">
+  <div class="g-intro">
+    <h1> Valei-me São Francisco </h1>
+    <p>Dentre os municípios que serão beneficiados coma a transposição do rio
+      São francisco, nem todos contam com estação de tratamento de esgoto.
+    </p>
+    <p>
+      O gráfico abaixo mostra quais são estes municípios e onde estão localizados.
+    </p>
+  </div>
+  <p class="subtitle"><small><strong>Municípios beneficiados pela transposição do rio São Francisco:</strong></small></p>
   <div id="chart"></div>
 </div>
 
@@ -36,7 +46,7 @@
     var municipios = topojson.feature(sab, sab.objects.municipios_sab);
 
     scale
-      .domain([0.7, 0.9, 1])
+      .domain([0.5, 0.9, 1])
       .range(["#d35400","#f1c40f", "#3498db"]);
 
     svg.selectAll(".municipios")

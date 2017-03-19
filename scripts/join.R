@@ -9,16 +9,16 @@ beneficiados <- read.csv("../arcgis/municipios_beneficiados.csv", header = T, en
 join <- left_join(beneficiados, mun, by = c("nome" = "municipio"))
 
 #selecting desired columns
-join <- join %>% select(FID, nome, populacao.y, agua.y, esgoto.y, ano.y)
+join <- join %>% select(nome, populacao.y, agua.y, esgoto.y, ano.y, codigo_mun)
 
 #renaming columns
-names <- c("id", "nome", "populacao", "agua", "esgoto", "ano")
+names <- c("nome", "populacao", "agua", "esgoto", "ano", "codigo_mun")
 colnames(join) <- names
 
 #creating percentage
 m_hist <- mutate(join, taxa_esgoto = esgoto/populacao, taxa_agua = agua/populacao)
 
-write.table(m_hist, file = "municipios_hist.csv", sep = ",", col.names = T, quote = T, fileEncoding = "UTF-8")
+write.table(m_hist, file = "municipios_hist.csv", sep = ";", col.names = T, quote = T, fileEncoding = "UTF-8")
 
 # transform the data.frame into the described structure
 idsIndexes <- which(names(m_hist) != 'id' & names(m_hist) != 'nome')
