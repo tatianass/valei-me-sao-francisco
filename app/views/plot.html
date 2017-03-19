@@ -1,0 +1,89 @@
+<div class="container">
+  <h1 class="text-center">População total atendida com abastecimento de água</h1>
+  <div id="plot"></div>
+</div>
+
+
+<script>
+  var margin = {top: 40, right: 40, bottom: 40, left: 40};
+  var width = 960 - margin.left - margin.right,
+      height = 480 - margin.top - margin.bottom;
+
+  var svg = d3.select("#plot")
+      .append("svg")
+      .attr('version', '1.1')
+      .attr('viewBox', '0 0 '+(width + margin.left + margin.right)+' '+(height + margin.top + margin.bottom))
+      .attr('width', '100%')
+      .attr('class', 'map-chart');
+
+  var
+    x = d3.scaleLinear().range([0, width]),
+    xAxis = d3.axisBottom(x).tickFormat(d3.format("")),
+    y = d3.scaleLinear().range([height, 0]),
+    yAxis = d3.axisLeft(y);
+
+  var line = d3.line()
+    .x(function(d) { return x(d.ano); })
+    .y(function(d) { return y(d.agua); });
+
+  var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  d3.csv("historico.csv", function(error, data) {
+    if (error) throw error;
+
+    // data.sort(function(a, b) {
+    //    return d3.ascending(+a.codigo_mun, +b.codigo_mun);
+    // })
+
+    // var
+    //   map = [],
+    //   municipio = "",
+    //   municipioAtual = "";
+    // data.forEach(function(d) {
+    //   municipio = d.codigo_mun;
+    //   if (municipio !== municipioAtual) {
+    //     municipioAtual = municipio;
+    //     map[municipioAtual] = {
+    //       codigo_mun: d.codigo_mun,
+    //       nome: d.nome,
+    //       valores: []
+    //     };
+    //   }
+    //   if (+d.agua > 0) {
+    //     map[municipioAtual].valores.push({
+    //       ano: +d.ano,
+    //       agua: +d.agua,
+    //       taxa_agua: +d.taxa_agua
+    //     });
+    //   }
+    // });
+
+    x.domain([d3.min(data, function(d) { return +d.ano; }), d3.max(data, function(d) { return +d.ano; })]);
+    y.domain([0, 1]);
+
+    g.append("g")
+     .attr("transform", "translate(0," + height + ")")
+     .call(xAxis);
+    g.append("g")
+    .call(yAxis);
+
+    g.selectAll(".dot")
+    .data(data)
+    .enter().append("circle")
+      .attr("class", function(d) { return "dot "+d.nome})
+      .attr("r", 5)
+      .attr("cx", function(d) { return x(+d.ano);})
+      .attr("cy", function(d) { return y(+d.taxa_agua)+Math.random();})
+      .style("fill", "#2980b9")
+      .style("opacity", "0.1")
+      .on("mouseover", function(d) {
+        console.log(d.nome);
+      })
+      .on("mouseout", function(d) {
+          tooltip.transition()
+               .duration(500)
+               .style("opacity", 0);
+      });
+  });
+</script>

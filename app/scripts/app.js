@@ -23,6 +23,10 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
     })
+    .state('plot', {
+        url: '/plot',
+        templateUrl: 'views/plot.html'
+    })
     .state('about', {
         url: '/about',
         templateUrl: 'views/about.html',
