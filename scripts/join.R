@@ -1,0 +1,33 @@
+library(dplyr) 
+library(jsonlite)
+
+#loading data
+mun <- read.csv("../arcgis/AguaEsgotoHabitantesConsolidadosHistorico.csv", header = T, encoding = "UTF-8", stringsAsFactors = F, sep = ";")
+beneficiados <- read.csv("../arcgis/municipios_beneficiados.csv", header = T, encoding = "UTF-8", stringsAsFactors = F, sep = ",")
+
+#joing by city's name
+join <- left_join(beneficiados, mun, by = c("nome" = "municipio"))
+
+#selecting desired columns
+join <- join %>% select(FID, nome, uf.x, codigo_ibg, codigo_mun, populacao.x, agua.x, esgoto.x, ano.y)
+
+#renaming columns
+names <- c("id", "nome", "uf", "codigo_ibg", "codigo_mun", "populacao", "agua", "esgoto", "ano")
+colnames(join) <- names
+
+#creating percentage
+m_hist <- mutate(join, taxa_esgoto = esgoto/populacao, taxa_agua = agua/populacao)
+
+# transform the data.frame into the described structure
+idsIndexes <- which(names(m_hist) != 'id' & names(m_hist) != 'nome')
+a <- lapply(1:nrow(m_hist),FUN=function(i){ 
+  list(municipio=list(id=m_hist[i,'id'], nome=m_hist[i, 'nome']),
+       valores=lapply(idsIndexes,
+                      FUN=function(j)list(ano=m_hist[i,'ano'], agua=m_hist[i,'agua'], esgoto=m_hist[i,'esgoto'], populacao=m_hist[i,'populacao'], taxa_agua=m_hist[i,'taxa_agua'], taxa_esgoto=m_hist[i,'taxa_esgoto'])))
+})
+
+# serialize to json
+txt <- toJSON(a)
+# if you want, indent the json
+txt <- prettify(txt)
+write(txt, "municipios_hist.json")
