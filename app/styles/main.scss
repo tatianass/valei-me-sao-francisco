@@ -4,18 +4,22 @@
 // SVG properties
 
 .brasil {
-  fill: #fff;
-  stroke: black;
-  stroke-width: 0.4px;
+  fill: none;
+  stroke: #2c3e50;
+  stroke-width: 1px;
 }
 
 .semiarido {
-  fill: #ffb366;
-  stroke: black;
+  fill: none;
+  stroke: none;
   stroke-width: 0.4px;
 }
 
 .beneficiados {
   stroke: black;
   stroke-width: 0.4px;
+}
+
+.label {
+  fill: #2c3e50;
 }

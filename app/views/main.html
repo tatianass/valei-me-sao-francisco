@@ -15,13 +15,13 @@
       .attr('class', 'map-chart');
 
   var projection = d3.geoAlbers()
-      .center([-35, -8.4])
+      .center([-35, -7.6])
       .rotate([0, 0])
       .parallels([0, 0])
-      .scale(2000);
+      .scale(3200);
 
   var path = d3.geoPath().projection(projection);
-  var scale = d3.scaleLinear();
+  var scale = d3.scaleThreshold();
 
   d3.queue()
     .defer(d3.json, "br.json")
@@ -36,15 +36,8 @@
     var municipios = topojson.feature(sab, sab.objects.municipios_sab);
 
     scale
-      .domain([0, 1])
-      .range(d3.schemePuBu[9]);
-
-    svg.selectAll(".estados")
-      .data(estados.features)
-    .enter().append("path")
-      .attr("id", function(d) { return "uf-"+d.properties.sigla; })
-      .attr("d", path)
-      .attr("class", "brasil");
+      .domain([0.7, 0.9, 1])
+      .range(["#d35400","#f1c40f", "#3498db"]);
 
     svg.selectAll(".municipios")
       .data(municipios.features)
@@ -53,16 +46,27 @@
       .attr("d", path)
       .attr("class", "semiarido");
 
+    svg.selectAll(".estados")
+      .data(estados.features)
+    .enter().append("path")
+      .attr("id", function(d) { return "uf-"+d.properties.sigla; })
+      .attr("d", path)
+      .attr("class", "brasil");
+
+    svg.selectAll(".label")
+      .data(estados.features)
+    .enter().append("text")
+      .attr("x", function(d) { return path.centroid(d)[0]; })
+      .attr("y", function(d) { return path.centroid(d)[1]; })
+      .attr("class", "label")
+      .attr("id", function(d) { return "lb-"+d.properties.sigla })
+      .text(function(d) { return d.properties.nome });
+
     for (var i = 0; i < beneficiados.length; i++) {
-      //console.log(beneficiados[i].agua / beneficiados[i].populacao);
-      //console.log(beneficiados[i]);
-      //if (beneficiados[i].agua/beneficiados[i].populacao > 1) {
-        //console.log(beneficiados[i]);
-      //}
-      if (beneficiados[i].agua && beneficiados[i].populacao) {
+      if (beneficiados[i].taxa_agua) {
         svg.select("#m-" + beneficiados[i].codigo_ibg)
           .attr("class", "beneficiados")
-          .attr("fill", scale(beneficiados[i].agua / beneficiados[i].populacao));
+          .attr("fill", scale(beneficiados[i].taxa_agua));
       } else {
         svg.select("#m-" + beneficiados[i].codigo_ibg)
           .attr("class", "beneficiados")
