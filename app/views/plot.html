@@ -20,7 +20,7 @@
     x = d3.scaleLinear().range([0, width]),
     xAxis = d3.axisBottom(x).tickFormat(d3.format("")),
     y = d3.scaleLinear().range([height, 0]),
-    yAxis = d3.axisLeft(y);
+    yAxis = d3.axisLeft(y).tickFormat(d3.format(".0%"));
 
   var line = d3.line()
     .x(function(d) { return x(d.ano); })
@@ -74,7 +74,7 @@
       .attr("class", function(d) { return "dot "+d.nome})
       .attr("r", 5)
       .attr("cx", function(d) { return x(+d.ano);})
-      .attr("cy", function(d) { return y(+d.taxa_agua)+Math.random();})
+      .attr("cy", function(d) { return y(+d.taxa_agua);})
       .style("fill", "#2980b9")
       .style("opacity", "0.1")
       .on("mouseover", function(d) {

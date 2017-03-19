@@ -27,6 +27,10 @@ angular
         url: '/plot',
         templateUrl: 'views/plot.html'
     })
+    .state('map', {
+        url: '/map',
+        templateUrl: 'views/map.html'
+    })
     .state('about', {
         url: '/about',
         templateUrl: 'views/about.html',

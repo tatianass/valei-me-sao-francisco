@@ -1,87 +1,22 @@
-<div class="container">
-  <div class="g-intro">
-    <h1> Valei-me São Francisco </h1>
-    <p>Dentre os municípios que serão beneficiados coma a transposição do rio
-      São francisco, nem todos contam com estação de tratamento de esgoto.
-    </p>
-    <p>
-      O gráfico abaixo mostra quais são estes municípios e onde estão localizados.
-    </p>
+<div class="g-intro">
+  <div class="container">
+    <div class="g-intro-img">
+      <img src="images/logo.png" alt="Valei-me São Francisco">
+    </div>
+    <div class="g-intro-subtitle">
+      <p>
+        Dentre os municípios que serão beneficiados coma a transposição do rio
+        São francisco, nem todos contam com estação de tratamento de esgoto.
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-sm-offset-2">
+        <a ui-sref="map" class="btn btn-primary btn-block">Municípios beneficiados</a>
+      </div>
+      <div class="col-xs-6 col-sm-4">
+        <a ui-sref="plot" class="btn btn-primary btn-block">População atendida</a>
+      </div>
+    </div>
   </div>
-  <p class="subtitle"><small><strong>Municípios beneficiados pela transposição do rio São Francisco:</strong></small></p>
-  <div id="chart"></div>
 </div>
-
-<script>
-  var
-      width = 750,
-      height = 400;
-
-  var svg = d3.select("#chart")
-      .append("svg")
-      .attr('version', '1.1')
-      .attr('viewBox', '0 0 '+width+' '+height)
-      .attr('width', '100%')
-      .attr('class', 'map-chart');
-
-  var projection = d3.geoAlbers()
-      .center([-35.5, -7.6])
-      .rotate([0, 0])
-      .parallels([0, 0])
-      .scale(3200);
-
-  var path = d3.geoPath().projection(projection);
-  var scale = d3.scaleThreshold();
-
-  d3.queue()
-    .defer(d3.json, "br.json")
-    .defer(d3.json, "sab.json")
-    .defer(d3.csv, "municipios_beneficiados.csv")
-    .await(draw);
-
-  function draw(error, br, sab, beneficiados) {
-    if (error) throw error;
-
-    var estados = topojson.feature(br, br.objects.geo_estados);
-    var municipios = topojson.feature(sab, sab.objects.municipios_sab);
-
-    scale
-      .domain([0.5, 0.9, 1])
-      .range(["#d35400","#f1c40f", "#3498db"]);
-
-    svg.selectAll(".municipios")
-      .data(municipios.features)
-    .enter().append("path")
-      .attr("id", function(d) { return "m-"+d.properties.ID; })
-      .attr("d", path)
-      .attr("class", "semiarido");
-
-    svg.selectAll(".estados")
-      .data(estados.features)
-    .enter().append("path")
-      .attr("id", function(d) { return "uf-"+d.properties.sigla; })
-      .attr("d", path)
-      .attr("class", "brasil");
-
-    svg.selectAll(".label")
-      .data(estados.features)
-    .enter().append("text")
-      .attr("x", function(d) { return path.centroid(d)[0]; })
-      .attr("y", function(d) { return path.centroid(d)[1]; })
-      .attr("class", "label")
-      .attr("id", function(d) { return "lb-"+d.properties.sigla })
-      .text(function(d) { return d.properties.nome });
-
-    for (var i = 0; i < beneficiados.length; i++) {
-      if (beneficiados[i].taxa_agua) {
-        svg.select("#m-" + beneficiados[i].codigo_ibg)
-          .attr("class", "beneficiados")
-          .attr("fill", scale(beneficiados[i].taxa_agua));
-      } else {
-        svg.select("#m-" + beneficiados[i].codigo_ibg)
-          .attr("class", "beneficiados")
-          .attr("fill", "#ffff80");
-      }
-    }
-  }
-  </script>
