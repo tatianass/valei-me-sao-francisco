@@ -1,385 +1,385 @@
-FID;nome;uf;pib;estado_id;codigo_ibg;codigo_mun;ano;prestadore;servicos;populaca;agua;esgoto
-0;Fagundes;PB;48738;15;2506103;250610;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25061040] PREFEITURA MUNICIPAL DE FAGUNDES - PMF";"Água; Res Sólidos";11378;6067; 
-1;Frei Martinho;PB;14291;15;2506202;250620;2015;"[25062011] Prefeitura Municipal de Frei Martinho - PMFM; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25062040] PREFEITURA MUNICIPAL DE FREI MARTINHO - PMFM";"Esgoto; Água; Res Sólidos";2986;2144;2984
-2;Gado Bravo;PB;35814;15;2506251;250625;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;8450; ; 
-3;Ingá;PB;85951;15;2506806;250680;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;18042;12808; 
-4;Itabaiana;PB;132605;15;2506905;250690;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;24565;18119; 
-5;Itatuba;PB;58422;15;2507200;250720;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25072040] Prefeitura Municipal de Itatuba - PMI";"Água; Res Sólidos";10739;6008; 
-6;Condado;PE;118233;16;2604601;250450;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;6733;6181; 
-7;Jericó;PB;35694;15;2507408;250740;2015;"[25074011] Prefeitura Municipal de Jericó - PMJ; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25074040] SECRETARIA MUNICIPAL DE SAUDE - SMS";"Esgoto; Água; Res Sólidos";7717;4129;4833
-8;Brejo dos Santos;PB;27650;15;2502904;250290;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;6413;5097; 
-9;Massaranduba;PB;55359;15;2509206;250920;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;13654;4230; 
-10;Mato Grosso;PB;12389;15;2509370;250937;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25093740] PREFEITURA MUNICIPAL DE MATO GROSSO - PMMG";"Água; Res Sólidos";2869;798; 
-11;Jataúba;PE;72428;16;2608008;260800;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;16858;2592; 
-12;João Alfredo;PE;138728;16;2608107;260810;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;32939;19835; 
-13;Parari;PB;9583;15;2510659;251065;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;1795;924; 
-14;Olivedos;PB;17279;15;2510501;251050;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;3880;2369; 
-15;Altinho;PE;93535;16;2600807;260080;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;22876;18190; 
-16;Canhotinho;PE;106260;16;2603702;260370;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26037040] Prefeitura Municipal de Canhotinho - PMC";"Água; Res Sólidos";24837;14181; 
-17;Monteiro;PB;189702;15;2509701;250970;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água e Esgoto;32774;24337;19189
-18;Natuba;PB;47864;15;2509909;250990;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25099040] PREFEITURA MUNICIPAL DE NATUBA - PMN";"Água; Res Sólidos";10450;3447; 
-19;Nazarezinho;PB;32073;15;2510006;251000;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;7318; ; 
-20;Boa Vista;PB;89887;15;2502151;250215;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25021540] PREFEITURA MUNICIPAL DE BOA VISTA - PMBV";"Água; Res Sólidos";6884;4861; 
-21;Bom Jesus;PB;11185;15;2502201;250220;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25022040] Prefeitura Municipal de Bom Jesus - PMBJ";"Água; Res Sólidos";2532;1811; 
-22;Nova Palmeira;PB;21062;15;2510303;251030;2015;"[25103011] Prefeitura Municipal de Nova Palmeira - PMNP; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25103040] Prefeitura Municipal de Nova Palmeira - PMNP";"Esgoto; Água; Res Sólidos";4784; ;2556
-23;Patos;PB;692747;15;2510808;251080;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25108040] Secretaria Municipal de Meio Ambiente - SEMADS";"Água e Esgoto; Res Sólidos";106314;106314;7017
-24;Paulista;PB;59256;15;2510907;251090;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25109040] Prefeitura Municipal de Paulista - PMP";"Água; Res Sólidos";12216;4678; 
-25;Pedra Lavrada;PB;34256;15;2511103;251110;2015;"[25111011] Prefeitura Municipal de Pedra Lavrada - PMPL; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25111040] PREFEITURA MUNICIPAL DE PEDRA LAVRADA - PMPL";"Esgoto; Água; Res Sólidos";7982;3709;2928
-26;Lagoa do Ouro;PE;54491;16;2608602;260860;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26086040] SECRETARIA DE OBRAS E URBANISMO - SOU";"Água; Res Sólidos";12865;6852; 
-27;Equador;RN;37054;20;2403400;240340;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;6087;4707; 
-28;Capoeiras;PE;92597;16;2603801;260380;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;19997;7092; 
-29;Lagoa dos Gatos;PE;65618;16;2608701;260870;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;16161;9815; 
-30;Carnaíba;PE;73444;16;2603900;260390;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;19318;11972; 
-31;João Pessoa;PB;9805587;15;2507507;250750;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25075040] autarquia especial municipal de limpeza urbana - emlur";"Água e Esgoto; Res Sólidos";791438;791438;599226
-32;Felipe Guerra;RN;59098;20;2403707;240370;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;6013;3470; 
-33;Carnaubeira da Penha;PE;48221;16;2603926;260392;2015;"[26039211] Prefeitura Municipal de Carnaubeira da Penha - PMCP; [26039240] Prefeitura Municipal - PM";"Água e Esgoto; Res Sólidos";12603;3200;3200
-34;Cupira;PE;114992;16;2605004;260500;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;23841;23841; 
-35;Alto Santo;CE;77096;6;2300705;230070;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;16876;5764; 
-36;Abaiara;CE;35974;6;2300101;230010;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;11357;3829; 
-37;Cabaceiras;PB;25104;15;2503100;250310;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;5449;2463; 
-38;Picuí;PB;84547;15;2511400;251140;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;18670;13705; 
-39;Pilar;PB;49084;15;2511509;251150;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25115040] secretaria de infra estrutura - seinfra";"Água; Res Sólidos";11786;7847; 
-40;Fernando Pedroza;RN;14967;20;2403756;240375;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;3037;2635; 
-41;Horizonte;CE;995679;6;2305233;230523;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23052340] SECRETARIA DE INFRA-ESTRUTURA - SEINFRA";"Água e Esgoto; Res Sólidos";63365;43745;4352
-42;Pocinhos;PB;76516;15;2512002;251200;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25120040] Prefeitura Municipal de Pocinhos - PMP";"Água; Res Sólidos";18272; ; 
-43;Serrinha dos Pintos;RN;20458;20;2413557;241355;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;4797;2540; 
-44;Umbuzeiro;PB;42430;15;2517001;251700;2015;"[25170011] Prefeitura Municipal de Umbuzeiro - PMU; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25170040] Prefeitura Municipal de Umbuzeiro - PMU";"Esgoto; Água; Res Sólidos";9889;1360;1000
-45;Poço Dantas;PB;15157;15;2512036;251203;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25120340] Prefeitura Municipal de Poço Dantas - PMPD";"Água; Res Sólidos";3778;796; 
-46;Poço de José de Moura;PB;19170;15;2512077;251207;2015;"[25120711] Prefeitura Municipal de Poço de José de Moura - PMPJM; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25120740] Prefeitura Municipal de Poço de José de Moura - PMPJM";"Água; Água; Res Sólidos";4245;3953; 
-47;Jaguaruana;CE;238068;6;2307007;230700;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;33469;13642; 
-48;Taquaritinga do Norte;PE;116456;16;2615003;261500;2015;"[26150011] Prefeitura Municipal de Taquaritinga do Norte - PMTN; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26150040] Secretaria de Obras e Urbanismo - SEURB";"Esgoto; Água; Res Sólidos";27592;8630;23000
-49;Lajes;RN;52056;20;2406700;240670;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24067040] Secretaria de Obras e Serviços Urbanos - SEMOS";"Água e Esgoto; Res Sólidos";11151;8840;6179
-50;Exu;PE;155144;16;2605301;260530;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;31928;18481; 
-51;Terezinha;PE;32115;16;2615102;261510;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;7057;3602; 
-52;Granito;PE;39731;16;2606309;260630;2015;"[26063011] Prefeitura Municipal de Granito - PMG; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";7308;3756;3368
-53;Gravatá;PE;473161;16;2606408;260640;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água e Esgoto;81893;81893;1512
-54;Venturosa;PE;90988;16;2616001;261600;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26160040] PREFEITURA MUNICIPAL DE VENTUROSA - PMV";"Água; Res Sólidos";17870;8992; 
-55;Pombal;PB;183903;15;2512101;251210;2015;"[25121011] Prefeitura Municipal de Pombal - PMP; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25121040] Prefeitura Municipal de Pombal - PMP";"Esgoto; Água; Res Sólidos";32712;32051;17412
-56;Prata;PB;19344;15;2512200;251220;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4109;2748; 
-57;Puxinanã;PB;61014;15;2512408;251240;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;13557;4947; 
-58;Queimadas;PB;223018;15;2512507;251250;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25125040] Prefeitura Municipal de Queimadas - PMQ";"Água e Esgoto; Res Sólidos";43667;30488;638
-59;Salgadinho;PB;14478;15;2513000;251300;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25130011] Prefeitura Municipal de Salgadinho - PMS; [25130040] PREFEITURA MUNICIPAL DE SALGADINHO - PMS";"Água; Água e Esgoto; Res Sólidos";3871;1305;692
-60;Monte Horebe;PB;19756;15;2509602;250960;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4759;3421; 
-61;Salgado de São Félix;PB;46913;15;2513109;251310;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25131040] SECRETARIA DE INFRAESTRUTURA - SEINFRA";"Água; Res Sólidos";12144;4283; 
-62;Santa Cruz;PB;29600;15;2513208;251320;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25132040] SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA - SEMIU";"Água; Res Sólidos";6579;4176; 
-63;Timbaúba dos Batistas;RN;13534;20;2414308;241430;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;2418;1821; 
-64;Santa Helena;PB;24826;15;2513307;251330;2015;"[25133011] Prefeitura Municipal de Santa Helena - PMSH; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25133040] PREFEITURA MUNICIPAL DE SANTA HELENA - PMSH";"Esgoto; Água; Res Sólidos";5917;3252;1700
-65;Taboleiro Grande;RN;13033;20;2413805;241380;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24138040] SECRETARIA MUNICIPAL DE OBRAS E URBANISMO - SMOU";"Água; Res Sólidos";2518;1804; 
-66;Saloá;PE;70466;16;2612307;261230;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26123040] Prefeitura Municipal de Saloá   Secretaria Municipal de Meio Ambiente - PMS";"Água; Res Sólidos";15742;5552; 
-67;Santa Luzia;PB;77079;15;2513406;251340;2015;"[25134011] Prefeitura Municipal de Santa Luzia - PMSL; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25134040] Prefeitura Municipal de Santa Luzia - PMSL";"Esgoto; Água; Res Sólidos";15278;14197;13991
-68;Riacho dos Cavalos;PB;34144;15;2512804;251280;2015;"[25128011] Prefeitura Municipal de Riacho dos Cavalos - PMRC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25128040] Prefeitura Municipal de Riacho dos Cavalos - PMRC";"Esgoto; Água; Res Sólidos";8563; ;8538
-69;Santa Rita;PB;1246777;15;2513703;251370;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água e Esgoto;134940;118055;5101
-70;Triunfo;PE;69200;16;2615706;251680;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25168040] Prefeitura Municipal de Triunfo - PMT";"Água; Res Sólidos";9447; ; 
-71;Cruzeta;RN;54074;20;2403004;240300;2015;"[24030011] Prefeitura Municipal de Cruzeta - PMC; [24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24030040] Secretaria Municipal de Infraestrutura, Serviços Urbano - SMISU";"Esgoto; Água; Res Sólidos";8164;6682;6000
-72;São Bentinho;PB;20543;15;2513927;251392;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4451;3356; 
-73;São Bento;PB;192796;15;2513901;251390;2015;"[25139011] Prefeitura Municipal de São Bento - PMSB; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25139040] Prefeitura Municipal de São Bento - PMSB";"Esgoto; Água; Res Sólidos";33464;28382;26000
-74;Tenente Ananias;RN;46355;20;2414100;241410;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24141040] Prefeitura Municipal - PM";"Água; Res Sólidos";10646;7691; 
-75;São João do Rio do Peixe;PB;82474;15;2500700;250070;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25007040] Prefeitura Municipal de São João do Rio do Peixe-PB - PMSJRP";"Água; Res Sólidos";17929; ; 
-76;Alexandria;RN;66759;20;2400505;240050;2015;[24005011] Serviço Autônomo de Água e Esgoto de Alexandria - SAAE;Água e Esgoto;13852;13512;5513
-77;São Francisco;PB;16246;15;2513984;251398;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25139840] PREITURA MUNICIPAL DE SÃO FRANCISCO - PMSF";"Água; Res Sólidos";3375;1578; 
-78;Alto do Rodrigues;RN;187828;20;2400703;240070;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24007040] Prefeitura Municipal - PM";"Água e Esgoto; Res Sólidos";13915;9966;197
-79;São José da Lagoa Tapada;PB;33039;15;2514206;251420;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25142040] PREFEITURA MUNICIPAL DE SÃO JOSÉ DA LAGOA TAPADA - PMSJLT";"Água; Res Sólidos";7677;3360; 
-80;Apodi;RN;292845;20;2401008;240100;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24010040] PREFEITURA MUNICIPAL DE APODI - PMA";"Água; Res Sólidos";36189;18584; 
-81;São José de Espinharas;PB;26110;15;2514404;251440;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4684;2074; 
-82;Angicos;RN;69145;20;2400802;240080;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;11907;10507; 
-83;Antônio Martins;RN;31809;20;2400901;240090;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24009040] PREFEITURA MUNICIPAL DE ANTONIO MARTINS - PMAA";"Água e Esgoto; Res Sólidos";7205;2879;1527
-84;São José de Piranhas;PB;94357;15;2514503;251450;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25145040] Prefeitura Municipal de São José de Piranhas - PMSJP";"Água; Res Sólidos";19956;16001; 
-85;São Mamede;PB;38552;15;2514909;251490;2015;"[25149011] Prefeitura Municipal de São Mamede - PMSM; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25149040] Prefeitura Municipal de São Mamede - PMSM";"Esgoto; Água; Res Sólidos";7756;7232;5935
-86;São José dos Ramos;PB;23919;15;2514453;251445;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25144540] Prefeitura Municípial de São José dos Ramos-PB - PMSJR";"Água; Res Sólidos";5870;2622; 
-87;Severiano Melo;RN;29641;20;2413607;241360;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;3893;3893; 
-88;São Sebastião do Umbuzeiro;PB;15782;15;2515203;251520;2015;"[25152011] Prefeitura Municipal de São Sebastião do Umbuzeiro - PMSSU; [25152040] PREFEITURA MUNICIPAL DE SÃO SEBASTIÃO DO UMBUZEIRO - PMSSU";"Água e Esgoto; Res Sólidos";3440;2500;2300
-89;Sapé;PB;262173;15;2515302;251530;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25153040] Prefeitura Municipal de Sapé - PMS";"Água e Esgoto; Res Sólidos";52218;34410;10941
-90;Santa Terezinha;PE;42542;16;2612802;261280;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;11627;8557; 
-91;Areia Branca;RN;455959;20;2401107;240110;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24011040] Prefeitura Municipal de Areia Branca - PMAB";"Água; Res Sólidos";27356;21955; 
-92;Coronel João Pessoa;RN;23010;20;2402907;240290;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24029040] CONSTRUTORA SERRA NOVA - CSN";"Água; Res Sólidos";4963;1700; 
-93;Seridó;PB;38301;15;2515401;251540;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25154040] PREFEITURA MUNICIPAL DE SÃO VICENTE DO SERIDÓ - PMSVS";"Água; Res Sólidos";10900;4412; 
-94;Serra Branca;PB;67053;15;2515500;251550;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;13564;10630; 
-95;Soledade;PB;75343;15;2516102;251610;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25161040] Prefeitura Municipal de Soledade - PMS";"Água; Res Sólidos";14714;12425; 
-96;Caicó;RN;548174;20;2402006;240200;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24020040] PREFEITURA MUNICIPAL DE CAICÓ - RN";"Água e Esgoto; Res Sólidos";67259;61630;5683
-97;Riacho de Santo Antônio;PB;10803;15;2512788;251278;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25127840] Prefeitura Municipal de Riacho de Santo Antônio - PMRSA";"Água; Res Sólidos";1923; ; 
-98;Caraúbas;RN;169582;20;2402303;250407;2015;"[25040711] Prefeitura Municipal de Caraúbas - PMC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA";"Esgoto; Água";4115;1918;2318
-99;Carnaúba dos Dantas;RN;40943;20;2402402;240240;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24024040] PREFEITURA MUNICIPAL DE CARNAÚBA DOS DANTAS - PMCD";"Água; Res Sólidos";8045;5227; 
-100;Carnaubais;RN;77275;20;2402501;240250;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;10760;3167;2405
-101;São João do Cariri;PB;22834;15;2514008;251400;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4323;3624; 
-102;Serra do Mel;RN;63637;20;2413359;241335;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;11507;607; 
-103;João Dias;RN;12597;20;2405900;240590;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24059040] Prefeitura Municipal de João Dias - PMJD";"Água; Res Sólidos";2691;972; 
-104;José da Penha;RN;30727;20;2406007;240600;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;6049;3651;413
-105;Serra Negra do Norte;RN;40279;20;2413409;241340;2015;"[24134011] Prefeitura Municipal de Serra Negra do Norte - PMSNN; [24134040] Secretaria Municipal de Infraestrutura e Serviços Públicos - SMISP";"Água e Esgoto; Res Sólidos";8130;6503;5712
-106;São José do Brejo do Cruz;PB;9936;15;2514651;251465;2015;"[25146511] Prefeitura Municipal de São José do Brejo do Cruz - PMSJBC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25146540] PREFEITURA MUNICIPAL DE SÃO JOSÉ DO BREJO DO CRUZ - PMSJBC";"Esgoto; Água; Res Sólidos";1780;1318;400
-107;Ouro Branco;RN;29055;20;2408508;240850;2015;"[24085011] Prefeitura Municipal de Ouro Branco - pmob; [24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24085040] Municipio de Ouro Branco - PMOB";"Esgoto; Água; Res Sólidos";4871;3377;2500
-108;Messias Targino;RN;26614;20;2407609;240760;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;4530;2482; 
-109;São José do Sabugi;PB;20530;15;2514701;251470;2015;"[25147011] Prefeitura Municipal de São José do Sabugi - PMSJS; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25147040] Secretaria de Infraestrutura do Municipio - SIM";"Esgoto; Água; Res Sólidos";4124;3375;2212
-110;Paraná;RN;18859;20;2408607;240860;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24086040] Prefeitura Municipal de Paraná - PMP";"Água; Res Sólidos";4222;2874; 
-111;São José dos Cordeiros;PB;16958;15;2514800;251480;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;3729;2487; 
-112;Serra Redonda;PB;36474;15;2515807;251580;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25158040] PREFEITURA MUNICIPAL DE SERRA REDONDA - PMSR";"Água; Res Sólidos";7053; ; 
-113;Paraú;RN;16929;20;2408706;240870;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24087040] SECRETARIA MUNICIPAL DE URBANISMO, OBRAS E TRANSPORTES - SMUOT";"Água; Res Sólidos";3891;3424; 
-114;Mossoró;RN;3496776;20;2408003;240800;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24080040] SECRETARIA DE SERVIÇOS URBANOS - SEMSUR";"Água e Esgoto; Res Sólidos";288162;263279;129456
-115;Tibau;RN;32908;20;2411056;241105;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;4019;3090; 
-116;Calçado;PE;55976;16;2603306;260330;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26033040] Prefeitura Municipal de Calçado - PMC";"Água; Res Sólidos";11136;3922; 
-117;Condado;PB;34732;15;2504504;250450;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;6733;6181; 
-118;Vieirópolis;PB;19722;15;2517209;251720;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25172040] SECRETARIA DE OBRAS E SERVIÇOS PÚBLICOS - SOSP";"Água; Res Sólidos";5295;1186; 
-119;São João;PE;103706;16;2613206;261320;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;22403;13749; 
-120;São Vicente;RN;27951;20;2413003;241300;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;6400;5185; 
-121;Riachuelo;RN;33405;20;2410900;241090;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;7863;4837;4301
-122;Triunfo Potiguar;RN;17747;20;2414456;241445;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;3366;2894; 
-123;Umarizal;RN;62298;20;2414506;241450;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;10835;9219; 
-124;Upanema;RN;89781;20;2414605;241460;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24146040] PREFEITURA MUNICIPAL DE UPANEMA - PMU";"Água; Res Sólidos";14282;7050; 
-125;Várzea;RN;26155;20;2414704;251710;2015;"[25171011] Prefeitura Municipal de Várzea - PMV; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25171040] Prefeitura Municipal de Várzea - PB - PMV";"Esgoto; Água; Res Sólidos";2747;2426;1800
-126;Venha-Ver;RN;17118;20;2414753;241475;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24147540] PREFEITURA MUNICIPAL DE VENHA-VER - PMVV";"Água; Res Sólidos";4121;1293; 
-127;Viçosa;RN;9000;20;2414902;241490;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24149040] PREFEITURA MUNICIPAL DE VIÇOSA - PMV";"Água; Res Sólidos";1714;1632; 
-128;Tenente Laurentino Cruz;RN;27868;20;2414159;241415;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;5757;4658; 
-129;Calumbi;PE;24667;16;2603405;260340;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;5745;2649; 
-130;Caetés;PE;105518;16;2603207;260320;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26032040] Prefeitura Municipal de Caetés - PMC";"Água; Res Sólidos";28145;6536; 
-131;Frutuoso Gomes;RN;21606;20;2404002;240400;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24040040] PREFEITURA MUNICIPAL DE FRUTUOSO GOMES - PMFG";"Água; Res Sólidos";4228;2809; 
-132;Grossos;RN;119019;20;2404408;240440;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;10197;7642; 
-133;Florânia;RN;45332;20;2403806;240380;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;9254;7114;7083
-134;Lagoa;PB;22664;15;2508109;250810;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4687;2380; 
-135;Currais Novos;RN;338680;20;2403103;240310;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;44887;37929;30087
-136;Encanto;RN;24973;20;2403301;240330;2015;"[24033011] Prefeitura Municipal de Encanto - PME; [24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24033040] PREFEITURA MUNICIPAL  DE ENCANTO - PME";"Esgoto; Água; Res Sólidos";5593;2464;5593
-137;Jardim do Seridó;RN;70799;20;2405702;240570;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24057040] Prefeitura Municipal de Jardim do Seridó - PMJS";"Água; Res Sólidos";12553;10192; 
-138;Jucurutu;RN;104194;20;2406106;240610;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24061040] Secretária de Serviços Urbanos - SSU";"Água e Esgoto; Res Sólidos";18450;11341;3757
-139;Lagoa Nova;RN;64893;20;2406502;240650;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24065040] PREFEITURA MUNICIPAL DE LAGOA NOVA - PMLN";"Água e Esgoto; Res Sólidos";15274;7586;5042
-140;Macau;RN;454248;20;2407203;240720;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24072040] Prefeitura Municipal - PM";"Água e Esgoto; Res Sólidos";31318;23797;20618
-141;Marcelino Vieira;RN;42046;20;2407302;240730;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24073040] Prefeitura Municipal de Marcelino Vieira - PMMV";"Água; Res Sólidos";8499;5058; 
-142;Martins;RN;37567;20;2407401;240740;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24074040] Prefeitura Municipal de Martins - PMM";"Água; Res Sólidos";8706;5340; 
-143;Santana do Matos;RN;66841;20;2411403;241140;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;13605;6804; 
-144;São Fernando;RN;34092;20;2411809;241180;2015;"[24118011] Prefeitura Municipal de São Fernando - PMSF; [24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN";"Esgoto; Água";3587;2423;2187
-145;São Francisco do Oeste;RN;19839;20;2411908;241190;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24119040] Prefeitura Municipal de São Francisco do Oeste - PMSFO";"Água; Res Sólidos";4173;3176; 
-146;São Gonçalo do Amarante;RN;953855;20;2412005;231240;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23124040] Secretaria de Meio Ambiente e Urbanismo - PMSGA";"Água e Esgoto; Res Sólidos";47297;15927;5987
-147;São João do Sabugi;RN;35384;20;2412104;241210;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24121040] Secretaria Municipal de Infraestrutura e Serviços Urbanos - SMIS";"Água; Res Sólidos";6218;4994; 
-148;Sousa;PB;586365;15;2516201;251620;2015;"[25162011] Departamento de Água, Esgoto e Saneamento Ambiental de Sousa - DAESA; [25162040] Departamento de Água, Esgotos e Saneamento Ambiental de Sousa - DAESA";"Água e Esgoto; Res Sólidos";68822;61453;28819
-149;Ipanguaçu;RN;87684;20;2404705;240470;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24047040] Prefeitura Municipal de Ipanguaçu - PMI";"Água; Res Sólidos";15147;3842; 
-150;Camocim de São Félix;PE;91817;16;2603504;260350;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26035040] Prefeitura Municipal de Camocim - PMC";"Água; Res Sólidos";18292;13072; 
-151;Francisco Dantas;RN;15821;20;2403905;240390;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;2909;1667; 
-152;Governador Dix-Sept Rosado;RN;142763;20;2404309;240430;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;13048;6092; 
-153;Ouro Velho;PB;14955;15;2510600;251060;2015;"[25106011] Prefeitura Municipal de Ouro Velho - PMOV; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25106040] Prefeitura Municipal de Ouro Velho - PMOV";"Esgoto; Água; Res Sólidos";3023;2063;1700
-154;Juarez Távora;PB;30582;15;2507606;250760;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25076040] Prefeitura Municipal de Juarez Távora - PMJT";"Água; Res Sólidos";7850;7158; 
-155;Janduís;RN;28893;20;2405207;240520;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;5419;4101; 
-156;Juazeirinho;PB;74857;15;2507705;250770;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;17902;8442; 
-157;Juripiranga;PB;54178;15;2507903;250790;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;10669;7227; 
-158;Lastro;PB;14276;15;2508406;250840;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25084040] PREFEITURA MUNICIPAL DE LASTRO - PML";"Água; Res Sólidos";2765;1614; 
-159;Livramento;PB;30907;15;2508505;250850;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;7355;4238; 
-160;Jardim de Angicos;RN;14136;20;2405504;240550;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;2669;1432; 
-161;Boqueirão;PB;105054;15;2502508;250250;2015;"[25025011] Prefeitura Municipal de Boqueirão - PMB; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25025040] Prefeitura Municipal de Boqueirão - PMB";"Esgoto; Água; Res Sólidos";17670;11319;12462
-162;Malta;PB;25455;15;2508802;250880;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25088040] Prefeitura Municipal de Malta - PMM";"Água; Res Sólidos";5672;5481; 
-163;Ipueira;RN;14429;20;2404804;240480;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24048040] PREFEITURA MUNICIPAL DE IPUEIRA - PMI";"Água; Res Sólidos";2221;2020; 
-164;Itaú;RN;31158;20;2404903;240490;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;5878;5161; 
-165;Brejo do Cruz;PB;57812;15;2502805;250280;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;13900;10100; 
-166;Areia de Baraúnas;PB;9611;15;2501153;250115;2015;"[25011511] Prefeitura Municipal de Areia de Baraunas - PMAB; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25011540] Prefeitura Municipal de Areia de Baraúnas - PMAB";"Esgoto; Água; Res Sólidos";1880;953;1412
-167;Baraúna;PB;19034;15;2501534;240145;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;27238;17132; 
-168;Mogeiro;PB;62262;15;2509404;250940;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25094040] Prefeitura Municipal de Mogeiro - PMM";"Água; Res Sólidos";13317;2871; 
-169;Pilões;PB;34066;15;2511608;251160;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25116040] administração - PMP";"Água; Res Sólidos";6728; ; 
-170;Passagem;PB;13378;15;2510709;251070;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;2383;2115; 
-171;Riachão do Bacamarte;PB;20663;15;2512754;251275;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;4476;2228; 
-172;Cachoeira dos Índios;PB;47126;15;2503308;250330;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25033040] Prefeitura Municipal de Cachoeira Dos Índios - PMCÍ";"Água; Res Sólidos";10114;3981; 
-173;Augusto Severo;RN;45248;20;2401305;240130;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24013040] Prefeitural Municipal de Campo Grande - PMAS";"Água; Res Sólidos";9716;5232; 
-174;Cajazeiras;PB;461767;15;2503704;250370;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25037040] Secretaria Executiva de Meio Ambiente - SEMAC";"Água e Esgoto; Res Sólidos";61431;61431;9287
-175;Caldas Brandão;PB;27843;15;2503803;250380;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;5945;5342; 
-176;Ingazeira;PE;21808;16;2607109;260710;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;4556;2147; 
-177;Camalaú;PB;26379;15;2503902;250390;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25039040] Prefeitura Municipal de Camalaú/PB - PM";"Água e Esgoto; Res Sólidos";5971;4292;355
-178;Caturité;PB;35912;15;2504355;250435;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25043540] Secretaria Municipal de Infraestrutura - SEINFRA";"Água; Res Sólidos";4779;1891; 
-179;Baraúna;RN;207111;20;2401453;240145;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;27238;17132; 
-180;Alagoinha;PB;55240;15;2500502;250050;2015;"[25005011] Serviço Autônomo de Água e Esgoto - SAAE; [25005040] Prefeitura Municipal - PM";"Água; Res Sólidos";14284;11100; 
-181;Sobrado;PB;34320;15;2515971;251597;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;7712;2085; 
-182;Alcantil;PB;25167;15;2500536;250053;2015;"[25005311] Prefeitura Municipal de Alcantil - PMA; [25005340] Secretaria de Infraestrutura - SIE";"Água e Esgoto; Res Sólidos";5451;5425;5425
-183;Amparo;PB;10312;15;2500734;250073;2015;"[25007311] Prefeitura Municipal de Amparo - PMA; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA";"Esgoto; Água";2212;1498;998
-184;Aparecida;PB;34357;15;2500775;250077;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25007740] Prefeitura Municpal de Aparecida - PMA";"Água; Res Sólidos";8263;4806; 
-185;Bom Jesus;RN;46809;20;2401701;250220;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25022040] Prefeitura Municipal de Bom Jesus - PMBJ";"Água; Res Sólidos";2532;1811; 
-186;Brejinho;RN;60567;20;2401800;260250;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26025040] PREFEITURA MUNICIPAL DE BREJINHO - PMB";"Água; Res Sólidos";7464;4740; 
-187;Congo;PB;29041;15;2504702;250470;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25047040] PREFEITURA MUNICIPAL DE CONGO - PMC";"Água; Res Sólidos";4780;4314; 
-188;Lucrécia;RN;18137;20;2406908;240690;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24069040] PREFEITURA MUNICIPAL DE LUCRECIA - PML";"Água e Esgoto; Res Sólidos";3933;2416;2468
-189;Cruz do Espírito Santo;PB;84952;15;2504900;250490;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;17212;6233; 
-190;Cubati;PB;29356;15;2505006;250500;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água e Esgoto;7193;5682;645
-191;Vista Serrana;PB;15085;15;2505501;250550;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;3744;2900; 
-192;Zabelê;PB;10369;15;2517407;251740;2015;"[25174011] Prefeitura Municipal de Zabelê - PMZ; [25174040] Prefeitura Municipal de Zabelê - PMZ";"Água; Res Sólidos";2208;1566; 
-193;Bom Sucesso;PB;23151;15;2502300;250230;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25023040] SECRETARIA DE INFRAESTRUTURA - SIE";"Água; Res Sólidos";5007;2158; 
-194;Bonito de Santa Fé;PB;47127;15;2502409;250240;2015;"[25024011] Prefeitura Municipal de Bonito de Santa Fé - PMBSF; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25024040] Prefeitura Municipal de Bonito de Santa Fé - PMBSF";"Esgoto; Água; Res Sólidos";11684;9026;8500
-195;Agrestina;PE;125572;16;2600302;260030;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;24256;23436; 
-196;Águas Belas;PE;178224;16;2600500;260050;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26005040] SECRETARIA DE INFRAESTRUTURA - SEINFRA";"Água; Res Sólidos";42566;20270; 
-197;Angelim;PE;42085;16;2601003;260100;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26010040] Prefeitura Municipal de Angelim - PMA";"Água; Res Sólidos";10882;7541; 
-198;Araripina;PE;413682;16;2601102;260110;2015;"[26011011] Prefeitura Municipal de Araripina - PMA; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26011040] Prefeitura Municipal de Araripina - PMA";"Esgoto; Água; Res Sólidos";82800;53978;35531
-199;Arcoverde;PE;415858;16;2601201;260120;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água e Esgoto;72625;67787;3859
-200;Barra de Guabiraba;PE;51451;16;2601300;260130;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;13953;13764; 
-201;Cedro;PE;46144;16;2604304;230380;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;25013;12298;881
-202;Belo Jardim;PE;784639;16;2601706;260170;2015;"[26017011] Prefeitura Municipal de Belo Jardim - PMBJ; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26017040] Prefeitura Municipal de Belo Jardim - PMBJ";"Esgoto; Água; Res Sólidos";75462;75462;53155
-203;Betânia;PE;48656;16;2601805;260180;2015;"[26018011] Prefeitura Municipal de Betania - PMB; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";12539;5691;3878
-204;Bom Conselho;PE;310636;16;2602100;260210;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;47760;30960; 
-205;Bezerros;PE;337154;16;2601904;260190;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;60386;48789; 
-206;Bodocó;PE;167561;16;2602001;260200;2015;"[26020011] Prefeitura Municipal de Bodocó - PMB; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26020040] Prefeitura Municipal de Bodocó - PMB";"Esgoto; Água; Res Sólidos";37317;17068;20037
-207;Brejo da Madre de Deus;PE;193454;16;2602605;260260;2015;"[26026011] Prefeitura Municipal de Brejo da Madre de Deus - PMBMD; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";49092;27327;20000
-208;Bom Jardim;PE;187373;16;2602209;260220;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;38924;24988; 
-209;Brejão;PE;55380;16;2602407;260240;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;8989;4013; 
-210;Brejinho;PE;30283;16;2602506;260250;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26025040] PREFEITURA MUNICIPAL DE BREJINHO - PMB";"Água; Res Sólidos";7464;4740; 
-211;Mari;PB;98329;15;2509107;250910;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;21755;15269; 
-212;Doutor Severiano;RN;29407;20;2403202;240320;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;7184;3756;1392
-213;Machados;PE;67865;16;2609105;260910;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;15313;8871; 
-214;Gurinhém;PB;62246;15;2506400;250640;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25064040] Prefeitura Municipal de Gurinhém - PMG";"Água; Res Sólidos";14117;7334; 
-215;Quixabá;PB;9168;15;2512606;251260;2015;"[25126011] Prefeitura Municipal de Quixabá - PMQ; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25126040] Prefeitura Municipal de Quixaba - PMQ";"Esgoto; Água; Res Sólidos";1901;978;80
-216;Almino Afonso;RN;21464;20;2400604;240060;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24006040] PREFEITURA MUNICIPAL DE ALMINO AFONSO - PMAA";"Água; Res Sólidos";4899;3499; 
-217;São Domingos do Cariri;PB;12311;15;2513943;251394;2015;"[25139411] Prefeitura Municipal de São Domingos do Cariri - PMSDC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25139440] Prefeitura Municipal de São Domingos do Cariri - PMSDC";"Esgoto; Água; Res Sólidos";2563;1751;800
-218;Bonito;PE;203314;16;2602308;260230;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;38094;32321; 
-219;Buíque;PE;272624;16;2602803;260280;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;56523;17066; 
-220;Cachoeirinha;PE;103417;16;2603108;260310;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;19951;17392; 
-221;Caruaru;PE;3003634;16;2604106;260410;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26041040] Prefeitura Municipal Caruaru - PMC";"Água e Esgoto; Res Sólidos";347088;339749;152841
-222;Casinhas;PE;67504;16;2604155;260415;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26041540] Prefeitura Muncipal de Casinhas - PMC";"Água; Res Sólidos";14219;1670; 
-223;Correntes;PE;80334;16;2604700;260470;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;17968;12129; 
-224;Custódia;PE;207616;16;2605103;260510;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26051040] Prefeitura Municipal de Custódia - PMC";"Água; Res Sólidos";36184;21359; 
-225;Cumaru;PE;94205;16;2604908;260490;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;13132;7009; 
-226;Feira Nova;PE;86263;16;2605400;260540;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;21710;18432; 
-227;Flores;PE;89068;16;2605608;260560;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;22588;12911; 
-228;Floresta;PE;286209;16;2605707;260570;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26057040] PREFEITURA MUNICIPAL DE FLORESTA - PMF";"Água; Res Sólidos";31809;27172; 
-229;Frei Miguelinho;PE;60200;16;2605806;260580;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;15137;6063; 
-230;Garanhuns;PE;1140082;16;2606002;260600;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água e Esgoto;136949;136949;13707
-231;Ibimirim;PE;138622;16;2606606;260660;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26066040] Prefeitura Municipla de Ibimirim - PMI";"Água; Res Sólidos";28604;15556; 
-232;Inajá;PE;90698;16;2607000;260700;2015;[26070011] Prefeitura Municipal de Inajá - PMI;Água e Esgoto;21932;13264;5021
-233;Ipubi;PE;139206;16;2607307;260730;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água e Esgoto;29721;16799;8162
-234;Itaíba;PE;171267;16;2607505;260750;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26075040] Prefeitura Municipal de Itaíba - PMI";"Água; Res Sólidos";26412;17700; 
-235;Itapetim;PE;59350;16;2607703;260770;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26077040] Prefeitura Municipal de Itapetim - PMI";"Água; Res Sólidos";13780;9351; 
-236;Jucati;PE;51840;16;2608255;260825;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26082540] Prefeitura Municipal de Jucati - PMJ";"Água; Res Sólidos";11202;3985; 
-237;Jupi;PE;72204;16;2608305;260830;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;14525;2576; 
-238;Jurema;PE;64304;16;2608404;260840;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26084040] Prefeitura Municipal de Jurema - PMJ";"Água; Res Sólidos";15171;13000; 
-239;Lajedo;PE;194519;16;2608800;260880;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;39240;39146; 
-240;Mirandiba;PE;63997;16;2609303;260930;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26093040] Prefeitura Municipal Mirandiba - PE - PMM";"Água; Res Sólidos";15098;12707; 
-241;Moreilândia;PE;50680;16;2614303;261430;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;11242;5336; 
-242;Limoeiro;PE;324666;16;2608909;260890;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;56269;43432; 
-243;Manari;PE;68949;16;2609154;260915;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;20302;7347; 
-244;Orobó;PE;102259;16;2609709;260970;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26097040] PREFEITURA - PMO";"Água; Res Sólidos";23663;7434; 
-245;Panelas;PE;105295;16;2610202;261020;2015;"[26102011] Prefeitura Municipal de Panelas - PMP; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26102040] Prefeitura Municipal de Panelas - PMP";"Esgoto; Água; Res Sólidos";26464;16338;14410
-246;Ouricuri;PE;308963;16;2609907;260990;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26099040] PREFEITURA MUNICIPAL DE OURICURI - PMO";"Água; Res Sólidos";67676;48928; 
-247;Palmeirina;PE;41444;16;2610103;261010;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26101040] Prefeitura Municipal de Palmeirina - PMP";"Água; Res Sólidos";7969;5303; 
-248;Paranatama;PE;51518;16;2610301;261030;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26103040] Prefeitura Municipal de Paranatama - PMP";"Água; Res Sólidos";11357;1392; 
-249;Pedra;PE;136273;16;2610806;261080;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;22401;10734; 
-250;Parnamirim;PE;103501;16;2610400;261040;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26104040] Prefeitura Municipal de Parnamirim - PMP";"Água; Res Sólidos";21193;12236; 
-251;Passira;PE;128226;16;2610509;261050;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;28982;17454; 
-252;Paulista;PE;2129675;16;2610707;251090;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25109040] Prefeitura Municipal de Paulista - PMP";"Água; Res Sólidos";12216;4678; 
-253;Pesqueira;PE;345822;16;2610905;261090;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26109040] Prefeitura Municipal de Pesqueira - PMP";"Água; Res Sólidos";66153;40933; 
-254;Riacho das Almas;PE;101073;16;2611705;261170;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;20177;12754; 
-255;São Vicente Ferrer;PE;94852;16;2613800;261380;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;17763;8279; 
-256;Poção;PE;49338;16;2611200;261120;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;11265;6686; 
-257;Quixaba;PE;28296;16;2611533;261153;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;6823;3605; 
-258;Sairé;PE;85263;16;2612000;261200;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;10437;9731; 
-259;Salgadinho;PE;53829;16;2612109;251300;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25130011] Prefeitura Municipal de Salgadinho - PMS; [25130040] PREFEITURA MUNICIPAL DE SALGADINHO - PMS";"Água; Água e Esgoto; Res Sólidos";3871;1305;692
-260;Salgueiro;PE;445485;16;2612208;261220;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26122040] PREFEITURA MUNICIPAL DO SALGUEIRO - PMS";"Água e Esgoto; Res Sólidos";59769;59769;19937
-261;Sanharó;PE;104564;16;2612406;261240;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;25047;20948; 
-262;Santa Cruz;PE;58311;16;2612455;251320;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25132040] SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA - SEMIU";"Água; Res Sólidos";6579;4176; 
-263;Santa Cruz da Baixa Verde;PE;42117;16;2612471;261247;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26124740] Prefeitura Municipal de Santa Cruz da    Baixa Verde - PMSCBV";"Água; Res Sólidos";12375;191; 
-264;Santa Cruz do Capibaribe;PE;579347;16;2612505;261250;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;101485;78656; 
-265;Santa Maria do Cambucá;PE;72692;16;2612703;261270;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26127040] Secretaria Municipal de Saúde - SMS";"Água; Res Sólidos";13826;6775; 
-266;São Bento do Una;PE;285254;16;2613008;261300;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;57659;27118; 
-267;São Caitano;PE;158228;16;2613107;261310;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26131040] Prefeitura Municipal de São Caetano - PMSC";"Água; Res Sólidos";36763;29594; 
-268;São Joaquim do Monte;PE;113549;16;2613305;261330;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26133040] Município de São Joaquim do Monte - Prefeitura - PMSJM";"Água; Res Sólidos";21171;16087; 
-269;São José do Belmonte;PE;141867;16;2613503;261350;2015;"[26135011] Prefeitura Municipal de São José do Belmonte - PMSJB; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";33677;20351;21500
-270;São José do Egito;PE;161820;16;2613602;261360;2015;"[26136011] Prefeitura Municipal de São José do Egito - PMSJE; [26116000] Companhia Pernambucana de Saneamento - COMPESA; [26136040] Prefeitura Municipal de São José do Egito - PMSJE";"Esgoto; Água; Res Sólidos";33365;24606;21971
-271;Serra Talhada;PE;708567;16;2613909;261390;2015;"[26139011] Prefeitura Municipal de Serra Talhada - PMST; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";84352;84352;65450
-272;Serrita;PE;78261;16;2614006;261400;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26140040] secretaria de meio ambiente de serrita - semas";"Água; Res Sólidos";19017;10802; 
-273;Sertânia;PE;198391;16;2614105;261410;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;35367;19693; 
-274;Surubim;PE;357515;16;2614501;261450;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;63166;63166; 
-275;Aroeiras;PB;78026;15;2501302;250130;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25013040] Prefeitura Municipal de Aroeiras - PMA";"Água; Res Sólidos";19204; ; 
-276;Tabira;PE;113183;16;2614600;261460;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;27958;25816; 
-277;Tacaimbó;PE;55788;16;2614709;261470;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26147040] PREFEITURA MUNICPAL DE TACAIMBÓ - PMT";"Água; Res Sólidos";12891;8999; 
-278;Terra Nova;PE;44352;16;2615201;261520;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;10185;9700; 
-279;Trindade;PE;141058;16;2615607;261560;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;29519;29519; 
-280;Coxixola;PB;10385;15;2504850;250485;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25048540] PREFEITURA MUNICIPAL DE COXIXOLA - PMC";"Água; Res Sólidos";1892;1040; 
-281;Marizópolis;PB;26786;15;2509156;250915;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;6522;5665; 
-282;Açu;RN;403713;20;2400208;240020;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24002040] Secretaria Adjunta de Serviços Públicos - SERVIP";"Água; Res Sólidos";57292;42364; 
-283;Afonso Bezerra;RN;46856;20;2400307;240030;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24003040] SECRETARIA DE OBRAS E SERVIÇOS URBANOS - SOSUR";"Água e Esgoto; Res Sólidos";11202;5475;4706
-284;Várzea;PB;14940;15;2517100;251710;2015;"[25171011] Prefeitura Municipal de Várzea - PMV; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25171040] Prefeitura Municipal de Várzea - PB - PMV";"Esgoto; Água; Res Sólidos";2747;2426;1800
-285;Afogados da Ingazeira;PE;197718;16;2600104;260010;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26001040] SECRETARIA DE INFRAESTRUTURA E SERVIÇOS  PÚBLICOS - PMAI";"Água; Res Sólidos";36709;36709; 
-286;Tupanatinga;PE;110142;16;2615805;261580;2015;"[26158011] Prefeitura Municipal de Tupanatinga - PMT; [26116000] Companhia Pernambucana de Saneamento - COMPESA";"Esgoto; Água";26454;11835;10000
-287;Tuparetama;PE;39625;16;2615904;261590;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;8149;8149; 
-288;Bodó;RN;18254;20;2401651;240165;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24016540] Prefeitura Municipal de Bodó - RN";"Água; Res Sólidos";2358;1367; 
-289;Verdejante;PE;40864;16;2616100;261610;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;9450;9376; 
-290;Caiçara do Rio do Vento;RN;19721;20;2401909;240190;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;3608;2845;916
-291;Acari;RN;69464;20;2400109;240010;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24001040] PREFEITURA MUNICIPAL DE ACARI - PMA";"Água e Esgoto; Res Sólidos";11344;9151;9151
-292;Vertente do Lério;PE;63383;16;2616183;261618;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26161840] PREFEITURA MUNICIPAL DE VERTENTE DO LÉRIO - PMVL";"Água; Res Sólidos";7746;2991; 
-293;Vertentes;PE;94956;16;2616209;261620;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26162040] Prefeitura Municipal de Vertentes - PMV";"Água; Res Sólidos";19976;14625; 
-294;Água Nova;RN;15224;20;2400406;240040;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24004040] SECRETARIA MUNICIPAL DE INFRA - ESTRUTUTA E SERVIÇOS URBANOS - SEMISU";"Água; Res Sólidos";3210;2055; 
-295;Rafael Fernandes;RN;25836;20;2410504;241050;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24105040] Prefeitura Municipal de Rafael Fernandes - PMRF";"Água; Res Sólidos";5040;2841; 
-296;Jati;CE;30035;6;2307205;230720;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23072040] Prefeitura Municipal de Jati - PMJ";"Água; Res Sólidos";7807;3296; 
-297;Jardim de Piranhas;RN;76714;20;2405603;240560;2015;"[24056011] Prefeitura Municipal de Jardim de Piranhas - PMJP; [24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24056040] MUNICÍPIO DE JARDIM DE PIRANHAS - PMJP";"Esgoto; Água; Res Sólidos";14606;11276;11459
-298;Luís Gomes;RN;44571;20;2407005;240700;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;10129;6625; 
-299;Penaforte;CE;44004;6;2310605;231060;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;8817;5679; 
-300;Pilões;RN;19292;20;2410009;251160;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25116040] administração - PMP";"Água; Res Sólidos";6728; ; 
-301;Juazeiro do Norte;CE;1959969;6;2307304;230730;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23073040] Autarquia de Meio Ambiente de Juazeiro do Norte - AMAJU";"Água e Esgoto; Res Sólidos";266022;222131;58507
-302;Maracanaú;CE;4100336;6;2307650;230765;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23076540] SECRETARIA DE INFRAESTRUTURA - SEINFRA";"Água e Esgoto; Res Sólidos";221504;147551;65227
-303;Barbalha;CE;454410;6;2301901;230190;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;58855;34498;3991
-304;Aquiraz;CE;682571;6;2301000;230100;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;77717;26004;13120
-305;Aracati;CE;560865;6;2301109;230110;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23011040] SECRETARIA DE INFRAESTRUTURA E URBANISMO - SEINFRA";"Água e Esgoto; Res Sólidos";72727;36102;9694
-306;Aurora;CE;98163;6;2301703;230170;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23017040] PREFEITURTA MUNICIPAL DE AURORA CEARA - PMA";"Água e Esgoto; Res Sólidos";24602;10359;1548
-307;Baixio;CE;25021;6;2301802;230180;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;6198;3307; 
-308;Barro;CE;88488;6;2302008;230200;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;22279;11332;1273
-309;Beberibe;CE;252153;6;2302206;230220;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23022040] Prefeitura Municipal de Beberibe - PMB";"Água e Esgoto; Res Sólidos";52310;8570;3280
-310;Cedro;CE;106408;6;2303808;230380;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;25013;12298;881
-311;Fortaleza;CE;37106309;6;2304400;230440;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23044040] SECRETARIA DE CONSERVAÇÃO E SERVIÇOS PÚBLICOS - SCSP";"Água e Esgoto; Res Sólidos";2591188;2184943;1270591
-312;Caririaçu;CE;95077;6;2303204;230320;2015;[23032011] Serviço Autônomo de Água e Esgoto - SAMAE;Água;26858;15373; 
-313;Fortim;CE;78141;6;2304459;230445;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23044540] SECRETARIA DE DESENVOLVIMENTO URBANO DE FORTIM/CE - DESURB";"Água; Res Sólidos";15951;6122; 
-314;Cascavel;CE;447137;6;2303501;230350;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23035040] Prefeitura Municipal de Cascavel - PMC";"Água e Esgoto; Res Sólidos";70047;39608;1171
-315;Caucaia;CE;2597520;6;2303709;230370;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;353932;240953;104674
-316;Eusébio;CE;1271649;6;2304285;230428;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23042840] Secretaria de Obras e Serviços Públicos - SOSP";"Água e Esgoto; Res Sólidos";51127;35342;4423
-317;Crato;CE;846429;6;2304202;230420;2015;[23042011] Sociedade Anônima de Água e Esgoto do Crato - SAAEC;Água e Esgoto;128680;127432;35527
-318;Chorozinho;CE;90323;6;2303956;230395;2015;"[23039511] Prefeitura Municipal de Chorozinho - PMC; [23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23039540] Secretaria de Planejamento e Desenvolvimento Urbano - SPDU";"Esgoto; Água; Res Sólidos";19192;6346;11590
-319;Granjeiro;CE;19560;6;2304806;230480;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23048040] Prefeitura Municipal de Granjeiro - PMG";"Água e Esgoto; Res Sólidos";4494;1193;502
-320;Guaiúba;CE;100646;6;2304954;230495;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;25841;12787;2131
-321;Icapuí;CE;191557;6;2305357;230535;2015;"[23053511] Serviço Autônomo de Água e Esgotos de Icapuí - SAAE; [23053540] Secretaria de Obras, Serviços Publicos e Urbanismo - SecObras";"Água; Res Sólidos";19418;19418; 
-322;Milagres;CE;116869;6;2308302;230830;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;28354;9145; 
-323;Ipaumirim;CE;50180;6;2305704;230570;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23057040] PREFEITURA MUNICIPAL DE IPAUMIRIM - PMI";"Água; Res Sólidos";12305;6207; 
-324;Icó;CE;287336;6;2305407;230540;2015;"[23054011] Serviço Autônomo de Água e Esgoto - SAAE; [23054040] PREFEITURA MUNICIPAL DE ICÓ - PMI/ICÓ";"Água e Esgoto; Res Sólidos";67198;49536;17850
-325;Jaguaretama;CE;90615;6;2306702;230670;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23067040] Prefeitura Municipal de Jaguaretama - PMJ";"Água e Esgoto; Res Sólidos";17997;7442;285
-326;Itaiçaba;CE;35175;6;2306207;230620;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23062040] PREFEITURA MUNICIPAL DE ITAIÇABA-SECRETARIA DE INFRAESTRUTURA - PMI-SEINFRA";"Água; Res Sólidos";7656;2434; 
-327;Itaitinga;CE;183012;6;2306256;230625;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;38540;35546;708
-328;Jaguaribara;CE;58002;6;2306801;230680;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;11102;7700;5627
-329;Jaguaribe;CE;223809;6;2306900;230690;2015;"[23069011] Serviço Autônomo de Água e Esgoto - SAAE; [23069040] Secretaria da Cidade e Infraestrutura - SEINFRA";"Água e Esgoto; Res Sólidos";34561;32672;8253
-330;Missão Velha;CE;151710;6;2308401;230840;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;35240;11897;369
-331;Lavras da Mangabeira;CE;120970;6;2307502;230750;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água;31383;14855; 
-332;Limoeiro do Norte;CE;402180;6;2307601;230760;2015;[23076011] Serviço Autônomo de Água e Esgoto - SAAE;Água e Esgoto;58175;57593;9925
-333;Maranguape;CE;753273;6;2307700;230770;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;123570;71863;7088
-334;Mauriti;CE;176512;6;2308104;230810;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23081040] PREFEITURA MUNICIPAL DE MAURITI - PMM";"Água e Esgoto; Res Sólidos";46113;15001;2671
-335;Morada Nova;CE;383023;6;2308708;230870;2015;[23087011] Serviço de Autônomo de Água e Esgoto - SAAE;Água e Esgoto;61903;58000;1600
-336;Ocara;CE;84802;6;2309458;230945;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23094540] SECRETARIA DE INFRAESTRUTURA E DESENVOLVIMENTO URBANO - SEMID";"Água e Esgoto; Res Sólidos";25123;4874;777
-337;Pacajus;CE;514524;6;2309607;230960;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;68800;40004;1851
-338;Pacatuba;CE;554878;6;2309706;230970;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23097040] Secretaria de Infraestrutura e Meio Ambiente - SIMA";"Água e Esgoto; Res Sólidos";80378;58004;30799
-339;Palhano;CE;46890;6;2310001;231000;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23100040] PREFEITURA MUNICIPAL DE PALHANO - PMP";"Água; Res Sólidos";9209;3326; 
-340;Porteiras;CE;59399;6;2311108;231110;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;15010;5178;867
-341;Russas;CE;555646;6;2311801;231180;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;75018;39333;10687
-342;Quixeré;CE;776829;6;2311504;231150;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23115040] SECRETARIA DE DESENVOLVIMENTO URBANO, MEIO AMBIENTE E INFRAESTRUTURA - PMQ";"Água; Res Sólidos";21572;5090; 
-343;São Gonçalo do Amarante;CE;1117611;6;2312403;231240;2015;"[23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23124040] Secretaria de Meio Ambiente e Urbanismo - PMSGA";"Água e Esgoto; Res Sólidos";47297;15927;5987
-344;Tabuleiro do Norte;CE;170464;6;2313104;231310;2015;[23044000] Companhia de Água e Esgoto do Ceará - CAGECE;Água e Esgoto;30263;15973;2041
-345;Umari;CE;29244;6;2313708;231370;2015;"[23137011] Prefeitura Municipal de Umari - PMU; [23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23137040] PREFEITURA MUNICIPAL DE UMARI - PMU";"Esgoto; Água; Res Sólidos";7665;2451;4550
-346;Várzea Alegre;CE;161977;6;2314003;231400;2015;"[23140011] Prefeitura Municipal de Várzea Alegre - PMVA; [23044000] Companhia de Água e Esgoto do Ceará - CAGECE; [23140040] Prefeitura Municipal de Várzea Alegre - PMVA";"Esgoto; Água; Res Sólidos";40062;21501;17900
-347;Pindoretama;CE;90237;6;2310852;231085;2015;"[23108511] Serviço Autônomo de Água e Esgoto - SAAE; [23108540] PREFEITURA MUNICIPAL DE PINDORETAMA - PMP";"Água; Res Sólidos";20207;12100; 
-348;Parelhas;RN;128053;20;2408904;240890;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24089040] PREFEITURA MUNICIPAL DE PARELHAS - PMPARELHAS";"Água e Esgoto; Res Sólidos";21483;18032;17786
-349;Parnamirim;RN;2350562;20;2403251;261040;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26104040] Prefeitura Municipal de Parnamirim - PMP";"Água; Res Sólidos";21193;12236; 
-350;Passagem;RN;16133;20;2409209;251070;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;2383;2115; 
-351;Patu;RN;59390;20;2409308;240930;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;12706;417; 
-352;Pau dos Ferros;RN;225508;20;2409407;240940;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24094040] Prefeitura Municipal de Pau dos Ferros - PMPF";"Água e Esgoto; Res Sólidos";29954;27622;3782
-353;Pedra Preta;RN;14421;20;2409605;240960;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;2568;982; 
-354;Pedro Avelino;RN;37690;20;2409704;240970;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;7059;4056;3256
-355;Pendências;RN;142977;20;2409902;240990;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;14751;10168;4223
-356;Solidão;PE;25225;16;2614402;261440;2015;"[26116000] Companhia Pernambucana de Saneamento - COMPESA; [26144040] secretaria de obras e saneamento - so";"Água; Res Sólidos";5949;2095; 
-357;Portalegre;RN;33893;20;2410207;241020;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24102040] Prefeitura Municipal de Portalegre - PMP";"Água; Res Sólidos";7811;4101; 
-358;Alagoinha;PE;63413;16;2600609;250050;2015;"[25005011] Serviço Autônomo de Água e Esgoto - SAAE; [25005040] Prefeitura Municipal - PM";"Água; Res Sólidos";14284;11100; 
-359;Rafael Godeiro;RN;15905;20;2410603;241060;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;3213;2028; 
-360;Barra de São Miguel;PB;26724;15;2501708;250170;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25017040] PREFEITURA MUNICIPAL DE BARRA DE SÃO MIGUEL - PMBSM";"Água; Res Sólidos";5905; ; 
-361;Riacho da Cruz;RN;15014;20;2410702;241070;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;3485;1987; 
-362;Riacho de Santana;RN;22592;20;2410801;241080;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24108040] PREFEITURA MUNICIPAL DE RIACHO DE SANTANA - PMRS";"Água; Res Sólidos";4278;1451; 
-363;Rodolfo Fernandes;RN;20752;20;2411007;241100;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água;4547;3843; 
-364;Santa Cruz;RN;191332;20;2411205;251320;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25132040] SECRETARIA MUNICIPAL DE INFRAESTRUTURA URBANA - SEMIU";"Água; Res Sólidos";6579;4176; 
-365;Sumé;PB;78869;15;2516300;251630;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água e Esgoto;16784;14948;4375
-366;Barra de Santana;PB;35667;15;2501575;250157;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25015740] Prefeitura Municipal de Barra de Santana - PMBS";"Água; Res Sólidos";8249;891; 
-367;Bayeux;PB;698617;15;2501807;250180;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25018040] SECRETARIA DE INFRAESTRUTURA - MARQUISE";"Água e Esgoto; Res Sólidos";96140;77843;8793
-368;Belém do Brejo do Cruz;PB;30877;15;2502003;250200;2015;"[25020011] Prefeitura Municipal de Belém do Brejo do Cruz - PMBBC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25020040] PREFEITURA MUNICIPAL DE BELÉM DO BREJO DO CRUZ - PMBBC";"Esgoto; Água; Res Sólidos";7320;5130;7320
-369;Taperoá;PB;65410;15;2516508;251650;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;15376; ; 
-370;Bernardino Batista;PB;13243;15;2502052;250205;2015;[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA;Água;3356; ; 
-371;São José do Seridó;RN;32131;20;2412401;241240;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;4567;2972;2827
-372;São Miguel;RN;112001;20;2412500;241250;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24125040] Prefeitura Municipal de São Miguel - PMSM";"Água; Res Sólidos";23274;15231; 
-373;Tenório;PB;13907;15;2516755;251675;2015;"[25167511] Prefeitura Municipal de Tenório - PMT; [25167540] Prefeitura Municipal de Tenório - PMT";"Água e Esgoto; Res Sólidos";3011;1200;1
-374;Triunfo;PB;38459;15;2516805;251680;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25168040] Prefeitura Municipal de Triunfo - PMT";"Água; Res Sólidos";9447; ; 
-375;Campina Grande;PB;4336824;15;2504009;250400;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25040040] SECRETARIA DE SERVIÇOS URBANOS E MEIO AMBIENTE - SESUMA";"Água e Esgoto; Res Sólidos";405072;405072;357612
-376;Santana do Seridó;RN;17293;20;2411429;241142;2015;"[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN; [24114240] SECRETARIA MUNICIPAL DE INFRA ESTRUTURA - SMIE";"Água e Esgoto; Res Sólidos";2675;1626;1751
-377;São Rafael;RN;43984;20;2412807;241280;2015;[24081000] Companhia de Águas e Esgotos do Rio Grande do Norte - CAERN;Água e Esgoto;8347;5733;4977
-378;Toritama;PE;222209;16;2615409;261540;2015;[26116000] Companhia Pernambucana de Saneamento - COMPESA;Água;42123;34414; 
-379;Cacimba de Areia;PB;16503;15;2503407;250340;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25034040] Prefeitura Municipal de Cacimba de Areia - PMCA";"Água; Res Sólidos";3713;1869; 
-380;Caraúbas;PB;20101;15;2504074;250407;2015;"[25040711] Prefeitura Municipal de Caraúbas - PMC; [25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA";"Esgoto; Água";4115;1918;2318
-381;Carrapateira;PB;12171;15;2504108;250410;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25041040] PREFEITURA MUNICIPAL DE CARRAPATEIRA - PMC";"Água; Res Sólidos";2601; ; 
-382;Catolé do Rocha;PB;162776;15;2504306;250430;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25043040] Prefeitura Municipal de Catolé do Rocha PB - PMCR";"Água e Esgoto; Res Sólidos";30179;22542;5803
-383;Uiraúna;PB;74993;15;2516904;251690;2015;"[25075000] Companhia de Águas e Esgotos da Paraíba - CAGEPA; [25169040] PREFEITURA MUNICIPAL DE UIRAÚNA - PMU";"Água; Res Sólidos";15228;12794; 
+FID;nome;uf;codigo_ibg;codigo_mun;ano;populacao;agua;esgoto
+0;Fagundes;PB;2506103;250610;2015;11378;6067; 
+1;Frei Martinho;PB;2506202;250620;2015;2986;2144;2984
+2;Gado Bravo;PB;2506251;250625;2015;8450; ; 
+3;Ingá;PB;2506806;250680;2015;18042;12808; 
+4;Itabaiana;PB;2506905;250690;2015;24565;18119; 
+5;Itatuba;PB;2507200;250720;2015;10739;6008; 
+6;Condado;PE;2604601;250450;2015;6733;6181; 
+7;Jericó;PB;2507408;250740;2015;7717;4129;4833
+8;Brejo dos Santos;PB;2502904;250290;2015;6413;5097; 
+9;Massaranduba;PB;2509206;250920;2015;13654;4230; 
+10;Mato Grosso;PB;2509370;250937;2015;2869;798; 
+11;Jataúba;PE;2608008;260800;2015;16858;2592; 
+12;João Alfredo;PE;2608107;260810;2015;32939;19835; 
+13;Parari;PB;2510659;251065;2015;1795;924; 
+14;Olivedos;PB;2510501;251050;2015;3880;2369; 
+15;Altinho;PE;2600807;260080;2015;22876;18190; 
+16;Canhotinho;PE;2603702;260370;2015;24837;14181; 
+17;Monteiro;PB;2509701;250970;2015;32774;24337;19189
+18;Natuba;PB;2509909;250990;2015;10450;3447; 
+19;Nazarezinho;PB;2510006;251000;2015;7318; ; 
+20;Boa Vista;PB;2502151;250215;2015;6884;4861; 
+21;Bom Jesus;PB;2502201;250220;2015;2532;1811; 
+22;Nova Palmeira;PB;2510303;251030;2015;4784; ;2556
+23;Patos;PB;2510808;251080;2015;106314;106314;7017
+24;Paulista;PB;2510907;251090;2015;12216;4678; 
+25;Pedra Lavrada;PB;2511103;251110;2015;7982;3709;2928
+26;Lagoa do Ouro;PE;2608602;260860;2015;12865;6852; 
+27;Equador;RN;2403400;240340;2015;6087;4707; 
+28;Capoeiras;PE;2603801;260380;2015;19997;7092; 
+29;Lagoa dos Gatos;PE;2608701;260870;2015;16161;9815; 
+30;Carnaíba;PE;2603900;260390;2015;19318;11972; 
+31;João Pessoa;PB;2507507;250750;2015;791438;791438;599226
+32;Felipe Guerra;RN;2403707;240370;2015;6013;3470; 
+33;Carnaubeira da Penha;PE;2603926;260392;2015;12603;3200;3200
+34;Cupira;PE;2605004;260500;2015;23841;23841; 
+35;Alto Santo;CE;2300705;230070;2015;16876;5764; 
+36;Abaiara;CE;2300101;230010;2015;11357;3829; 
+37;Cabaceiras;PB;2503100;250310;2015;5449;2463; 
+38;Picuí;PB;2511400;251140;2015;18670;13705; 
+39;Pilar;PB;2511509;251150;2015;11786;7847; 
+40;Fernando Pedroza;RN;2403756;240375;2015;3037;2635; 
+41;Horizonte;CE;2305233;230523;2015;63365;43745;4352
+42;Pocinhos;PB;2512002;251200;2015;18272; ; 
+43;Serrinha dos Pintos;RN;2413557;241355;2015;4797;2540; 
+44;Umbuzeiro;PB;2517001;251700;2015;9889;1360;1000
+45;Poço Dantas;PB;2512036;251203;2015;3778;796; 
+46;Poço de José de Moura;PB;2512077;251207;2015;4245;3953; 
+47;Jaguaruana;CE;2307007;230700;2015;33469;13642; 
+48;Taquaritinga do Norte;PE;2615003;261500;2015;27592;8630;23000
+49;Lajes;RN;2406700;240670;2015;11151;8840;6179
+50;Exu;PE;2605301;260530;2015;31928;18481; 
+51;Terezinha;PE;2615102;261510;2015;7057;3602; 
+52;Granito;PE;2606309;260630;2015;7308;3756;3368
+53;Gravatá;PE;2606408;260640;2015;81893;81893;1512
+54;Venturosa;PE;2616001;261600;2015;17870;8992; 
+55;Pombal;PB;2512101;251210;2015;32712;32051;17412
+56;Prata;PB;2512200;251220;2015;4109;2748; 
+57;Puxinanã;PB;2512408;251240;2015;13557;4947; 
+58;Queimadas;PB;2512507;251250;2015;43667;30488;638
+59;Salgadinho;PB;2513000;251300;2015;3871;1305;692
+60;Monte Horebe;PB;2509602;250960;2015;4759;3421; 
+61;Salgado de São Félix;PB;2513109;251310;2015;12144;4283; 
+62;Santa Cruz;PB;2513208;251320;2015;6579;4176; 
+63;Timbaúba dos Batistas;RN;2414308;241430;2015;2418;1821; 
+64;Santa Helena;PB;2513307;251330;2015;5917;3252;1700
+65;Taboleiro Grande;RN;2413805;241380;2015;2518;1804; 
+66;Saloá;PE;2612307;261230;2015;15742;5552; 
+67;Santa Luzia;PB;2513406;251340;2015;15278;14197;13991
+68;Riacho dos Cavalos;PB;2512804;251280;2015;8563; ;8538
+69;Santa Rita;PB;2513703;251370;2015;134940;118055;5101
+70;Triunfo;PE;2615706;251680;2015;9447; ; 
+71;Cruzeta;RN;2403004;240300;2015;8164;6682;6000
+72;São Bentinho;PB;2513927;251392;2015;4451;3356; 
+73;São Bento;PB;2513901;251390;2015;33464;28382;26000
+74;Tenente Ananias;RN;2414100;241410;2015;10646;7691; 
+75;São João do Rio do Peixe;PB;2500700;250070;2015;17929; ; 
+76;Alexandria;RN;2400505;240050;2015;13852;13512;5513
+77;São Francisco;PB;2513984;251398;2015;3375;1578; 
+78;Alto do Rodrigues;RN;2400703;240070;2015;13915;9966;197
+79;São José da Lagoa Tapada;PB;2514206;251420;2015;7677;3360; 
+80;Apodi;RN;2401008;240100;2015;36189;18584; 
+81;São José de Espinharas;PB;2514404;251440;2015;4684;2074; 
+82;Angicos;RN;2400802;240080;2015;11907;10507; 
+83;Antônio Martins;RN;2400901;240090;2015;7205;2879;1527
+84;São José de Piranhas;PB;2514503;251450;2015;19956;16001; 
+85;São Mamede;PB;2514909;251490;2015;7756;7232;5935
+86;São José dos Ramos;PB;2514453;251445;2015;5870;2622; 
+87;Severiano Melo;RN;2413607;241360;2015;3893;3893; 
+88;São Sebastião do Umbuzeiro;PB;2515203;251520;2015;3440;2500;2300
+89;Sapé;PB;2515302;251530;2015;52218;34410;10941
+90;Santa Terezinha;PE;2612802;261280;2015;11627;8557; 
+91;Areia Branca;RN;2401107;240110;2015;27356;21955; 
+92;Coronel João Pessoa;RN;2402907;240290;2015;4963;1700; 
+93;Seridó;PB;2515401;251540;2015;10900;4412; 
+94;Serra Branca;PB;2515500;251550;2015;13564;10630; 
+95;Soledade;PB;2516102;251610;2015;14714;12425; 
+96;Caicó;RN;2402006;240200;2015;67259;61630;5683
+97;Riacho de Santo Antônio;PB;2512788;251278;2015;1923; ; 
+98;Caraúbas;RN;2402303;250407;2015;4115;1918;2318
+99;Carnaúba dos Dantas;RN;2402402;240240;2015;8045;5227; 
+100;Carnaubais;RN;2402501;240250;2015;10760;3167;2405
+101;São João do Cariri;PB;2514008;251400;2015;4323;3624; 
+102;Serra do Mel;RN;2413359;241335;2015;11507;607; 
+103;João Dias;RN;2405900;240590;2015;2691;972; 
+104;José da Penha;RN;2406007;240600;2015;6049;3651;413
+105;Serra Negra do Norte;RN;2413409;241340;2015;8130;6503;5712
+106;São José do Brejo do Cruz;PB;2514651;251465;2015;1780;1318;400
+107;Ouro Branco;RN;2408508;240850;2015;4871;3377;2500
+108;Messias Targino;RN;2407609;240760;2015;4530;2482; 
+109;São José do Sabugi;PB;2514701;251470;2015;4124;3375;2212
+110;Paraná;RN;2408607;240860;2015;4222;2874; 
+111;São José dos Cordeiros;PB;2514800;251480;2015;3729;2487; 
+112;Serra Redonda;PB;2515807;251580;2015;7053; ; 
+113;Paraú;RN;2408706;240870;2015;3891;3424; 
+114;Mossoró;RN;2408003;240800;2015;288162;263279;129456
+115;Tibau;RN;2411056;241105;2015;4019;3090; 
+116;Calçado;PE;2603306;260330;2015;11136;3922; 
+117;Condado;PB;2504504;250450;2015;6733;6181; 
+118;Vieirópolis;PB;2517209;251720;2015;5295;1186; 
+119;São João;PE;2613206;261320;2015;22403;13749; 
+120;São Vicente;RN;2413003;241300;2015;6400;5185; 
+121;Riachuelo;RN;2410900;241090;2015;7863;4837;4301
+122;Triunfo Potiguar;RN;2414456;241445;2015;3366;2894; 
+123;Umarizal;RN;2414506;241450;2015;10835;9219; 
+124;Upanema;RN;2414605;241460;2015;14282;7050; 
+125;Várzea;RN;2414704;251710;2015;2747;2426;1800
+126;Venha-Ver;RN;2414753;241475;2015;4121;1293; 
+127;Viçosa;RN;2414902;241490;2015;1714;1632; 
+128;Tenente Laurentino Cruz;RN;2414159;241415;2015;5757;4658; 
+129;Calumbi;PE;2603405;260340;2015;5745;2649; 
+130;Caetés;PE;2603207;260320;2015;28145;6536; 
+131;Frutuoso Gomes;RN;2404002;240400;2015;4228;2809; 
+132;Grossos;RN;2404408;240440;2015;10197;7642; 
+133;Florânia;RN;2403806;240380;2015;9254;7114;7083
+134;Lagoa;PB;2508109;250810;2015;4687;2380; 
+135;Currais Novos;RN;2403103;240310;2015;44887;37929;30087
+136;Encanto;RN;2403301;240330;2015;5593;2464;5593
+137;Jardim do Seridó;RN;2405702;240570;2015;12553;10192; 
+138;Jucurutu;RN;2406106;240610;2015;18450;11341;3757
+139;Lagoa Nova;RN;2406502;240650;2015;15274;7586;5042
+140;Macau;RN;2407203;240720;2015;31318;23797;20618
+141;Marcelino Vieira;RN;2407302;240730;2015;8499;5058; 
+142;Martins;RN;2407401;240740;2015;8706;5340; 
+143;Santana do Matos;RN;2411403;241140;2015;13605;6804; 
+144;São Fernando;RN;2411809;241180;2015;3587;2423;2187
+145;São Francisco do Oeste;RN;2411908;241190;2015;4173;3176; 
+146;São Gonçalo do Amarante;RN;2412005;231240;2015;47297;15927;5987
+147;São João do Sabugi;RN;2412104;241210;2015;6218;4994; 
+148;Sousa;PB;2516201;251620;2015;68822;61453;28819
+149;Ipanguaçu;RN;2404705;240470;2015;15147;3842; 
+150;Camocim de São Félix;PE;2603504;260350;2015;18292;13072; 
+151;Francisco Dantas;RN;2403905;240390;2015;2909;1667; 
+152;Governador Dix-Sept Rosado;RN;2404309;240430;2015;13048;6092; 
+153;Ouro Velho;PB;2510600;251060;2015;3023;2063;1700
+154;Juarez Távora;PB;2507606;250760;2015;7850;7158; 
+155;Janduís;RN;2405207;240520;2015;5419;4101; 
+156;Juazeirinho;PB;2507705;250770;2015;17902;8442; 
+157;Juripiranga;PB;2507903;250790;2015;10669;7227; 
+158;Lastro;PB;2508406;250840;2015;2765;1614; 
+159;Livramento;PB;2508505;250850;2015;7355;4238; 
+160;Jardim de Angicos;RN;2405504;240550;2015;2669;1432; 
+161;Boqueirão;PB;2502508;250250;2015;17670;11319;12462
+162;Malta;PB;2508802;250880;2015;5672;5481; 
+163;Ipueira;RN;2404804;240480;2015;2221;2020; 
+164;Itaú;RN;2404903;240490;2015;5878;5161; 
+165;Brejo do Cruz;PB;2502805;250280;2015;13900;10100; 
+166;Areia de Baraúnas;PB;2501153;250115;2015;1880;953;1412
+167;Baraúna;PB;2501534;240145;2015;27238;17132; 
+168;Mogeiro;PB;2509404;250940;2015;13317;2871; 
+169;Pilões;PB;2511608;251160;2015;6728; ; 
+170;Passagem;PB;2510709;251070;2015;2383;2115; 
+171;Riachão do Bacamarte;PB;2512754;251275;2015;4476;2228; 
+172;Cachoeira dos Índios;PB;2503308;250330;2015;10114;3981; 
+173;Augusto Severo;RN;2401305;240130;2015;9716;5232; 
+174;Cajazeiras;PB;2503704;250370;2015;61431;61431;9287
+175;Caldas Brandão;PB;2503803;250380;2015;5945;5342; 
+176;Ingazeira;PE;2607109;260710;2015;4556;2147; 
+177;Camalaú;PB;2503902;250390;2015;5971;4292;355
+178;Caturité;PB;2504355;250435;2015;4779;1891; 
+179;Baraúna;RN;2401453;240145;2015;27238;17132; 
+180;Alagoinha;PB;2500502;250050;2015;14284;11100; 
+181;Sobrado;PB;2515971;251597;2015;7712;2085; 
+182;Alcantil;PB;2500536;250053;2015;5451;5425;5425
+183;Amparo;PB;2500734;250073;2015;2212;1498;998
+184;Aparecida;PB;2500775;250077;2015;8263;4806; 
+185;Bom Jesus;RN;2401701;250220;2015;2532;1811; 
+186;Brejinho;RN;2401800;260250;2015;7464;4740; 
+187;Congo;PB;2504702;250470;2015;4780;4314; 
+188;Lucrécia;RN;2406908;240690;2015;3933;2416;2468
+189;Cruz do Espírito Santo;PB;2504900;250490;2015;17212;6233; 
+190;Cubati;PB;2505006;250500;2015;7193;5682;645
+191;Vista Serrana;PB;2505501;250550;2015;3744;2900; 
+192;Zabelê;PB;2517407;251740;2015;2208;1566; 
+193;Bom Sucesso;PB;2502300;250230;2015;5007;2158; 
+194;Bonito de Santa Fé;PB;2502409;250240;2015;11684;9026;8500
+195;Agrestina;PE;2600302;260030;2015;24256;23436; 
+196;Águas Belas;PE;2600500;260050;2015;42566;20270; 
+197;Angelim;PE;2601003;260100;2015;10882;7541; 
+198;Araripina;PE;2601102;260110;2015;82800;53978;35531
+199;Arcoverde;PE;2601201;260120;2015;72625;67787;3859
+200;Barra de Guabiraba;PE;2601300;260130;2015;13953;13764; 
+201;Cedro;PE;2604304;230380;2015;25013;12298;881
+202;Belo Jardim;PE;2601706;260170;2015;75462;75462;53155
+203;Betânia;PE;2601805;260180;2015;12539;5691;3878
+204;Bom Conselho;PE;2602100;260210;2015;47760;30960; 
+205;Bezerros;PE;2601904;260190;2015;60386;48789; 
+206;Bodocó;PE;2602001;260200;2015;37317;17068;20037
+207;Brejo da Madre de Deus;PE;2602605;260260;2015;49092;27327;20000
+208;Bom Jardim;PE;2602209;260220;2015;38924;24988; 
+209;Brejão;PE;2602407;260240;2015;8989;4013; 
+210;Brejinho;PE;2602506;260250;2015;7464;4740; 
+211;Mari;PB;2509107;250910;2015;21755;15269; 
+212;Doutor Severiano;RN;2403202;240320;2015;7184;3756;1392
+213;Machados;PE;2609105;260910;2015;15313;8871; 
+214;Gurinhém;PB;2506400;250640;2015;14117;7334; 
+215;Quixabá;PB;2512606;251260;2015;1901;978;80
+216;Almino Afonso;RN;2400604;240060;2015;4899;3499; 
+217;São Domingos do Cariri;PB;2513943;251394;2015;2563;1751;800
+218;Bonito;PE;2602308;260230;2015;38094;32321; 
+219;Buíque;PE;2602803;260280;2015;56523;17066; 
+220;Cachoeirinha;PE;2603108;260310;2015;19951;17392; 
+221;Caruaru;PE;2604106;260410;2015;347088;339749;152841
+222;Casinhas;PE;2604155;260415;2015;14219;1670; 
+223;Correntes;PE;2604700;260470;2015;17968;12129; 
+224;Custódia;PE;2605103;260510;2015;36184;21359; 
+225;Cumaru;PE;2604908;260490;2015;13132;7009; 
+226;Feira Nova;PE;2605400;260540;2015;21710;18432; 
+227;Flores;PE;2605608;260560;2015;22588;12911; 
+228;Floresta;PE;2605707;260570;2015;31809;27172; 
+229;Frei Miguelinho;PE;2605806;260580;2015;15137;6063; 
+230;Garanhuns;PE;2606002;260600;2015;136949;136949;13707
+231;Ibimirim;PE;2606606;260660;2015;28604;15556; 
+232;Inajá;PE;2607000;260700;2015;21932;13264;5021
+233;Ipubi;PE;2607307;260730;2015;29721;16799;8162
+234;Itaíba;PE;2607505;260750;2015;26412;17700; 
+235;Itapetim;PE;2607703;260770;2015;13780;9351; 
+236;Jucati;PE;2608255;260825;2015;11202;3985; 
+237;Jupi;PE;2608305;260830;2015;14525;2576; 
+238;Jurema;PE;2608404;260840;2015;15171;13000; 
+239;Lajedo;PE;2608800;260880;2015;39240;39146; 
+240;Mirandiba;PE;2609303;260930;2015;15098;12707; 
+241;Moreilândia;PE;2614303;261430;2015;11242;5336; 
+242;Limoeiro;PE;2608909;260890;2015;56269;43432; 
+243;Manari;PE;2609154;260915;2015;20302;7347; 
+244;Orobó;PE;2609709;260970;2015;23663;7434; 
+245;Panelas;PE;2610202;261020;2015;26464;16338;14410
+246;Ouricuri;PE;2609907;260990;2015;67676;48928; 
+247;Palmeirina;PE;2610103;261010;2015;7969;5303; 
+248;Paranatama;PE;2610301;261030;2015;11357;1392; 
+249;Pedra;PE;2610806;261080;2015;22401;10734; 
+250;Parnamirim;PE;2610400;261040;2015;21193;12236; 
+251;Passira;PE;2610509;261050;2015;28982;17454; 
+252;Paulista;PE;2610707;251090;2015;12216;4678; 
+253;Pesqueira;PE;2610905;261090;2015;66153;40933; 
+254;Riacho das Almas;PE;2611705;261170;2015;20177;12754; 
+255;São Vicente Ferrer;PE;2613800;261380;2015;17763;8279; 
+256;Poção;PE;2611200;261120;2015;11265;6686; 
+257;Quixaba;PE;2611533;261153;2015;6823;3605; 
+258;Sairé;PE;2612000;261200;2015;10437;9731; 
+259;Salgadinho;PE;2612109;251300;2015;3871;1305;692
+260;Salgueiro;PE;2612208;261220;2015;59769;59769;19937
+261;Sanharó;PE;2612406;261240;2015;25047;20948; 
+262;Santa Cruz;PE;2612455;251320;2015;6579;4176; 
+263;Santa Cruz da Baixa Verde;PE;2612471;261247;2015;12375;191; 
+264;Santa Cruz do Capibaribe;PE;2612505;261250;2015;101485;78656; 
+265;Santa Maria do Cambucá;PE;2612703;261270;2015;13826;6775; 
+266;São Bento do Una;PE;2613008;261300;2015;57659;27118; 
+267;São Caitano;PE;2613107;261310;2015;36763;29594; 
+268;São Joaquim do Monte;PE;2613305;261330;2015;21171;16087; 
+269;São José do Belmonte;PE;2613503;261350;2015;33677;20351;21500
+270;São José do Egito;PE;2613602;261360;2015;33365;24606;21971
+271;Serra Talhada;PE;2613909;261390;2015;84352;84352;65450
+272;Serrita;PE;2614006;261400;2015;19017;10802; 
+273;Sertânia;PE;2614105;261410;2015;35367;19693; 
+274;Surubim;PE;2614501;261450;2015;63166;63166; 
+275;Aroeiras;PB;2501302;250130;2015;19204; ; 
+276;Tabira;PE;2614600;261460;2015;27958;25816; 
+277;Tacaimbó;PE;2614709;261470;2015;12891;8999; 
+278;Terra Nova;PE;2615201;261520;2015;10185;9700; 
+279;Trindade;PE;2615607;261560;2015;29519;29519; 
+280;Coxixola;PB;2504850;250485;2015;1892;1040; 
+281;Marizópolis;PB;2509156;250915;2015;6522;5665; 
+282;Açu;RN;2400208;240020;2015;57292;42364; 
+283;Afonso Bezerra;RN;2400307;240030;2015;11202;5475;4706
+284;Várzea;PB;2517100;251710;2015;2747;2426;1800
+285;Afogados da Ingazeira;PE;2600104;260010;2015;36709;36709; 
+286;Tupanatinga;PE;2615805;261580;2015;26454;11835;10000
+287;Tuparetama;PE;2615904;261590;2015;8149;8149; 
+288;Bodó;RN;2401651;240165;2015;2358;1367; 
+289;Verdejante;PE;2616100;261610;2015;9450;9376; 
+290;Caiçara do Rio do Vento;RN;2401909;240190;2015;3608;2845;916
+291;Acari;RN;2400109;240010;2015;11344;9151;9151
+292;Vertente do Lério;PE;2616183;261618;2015;7746;2991; 
+293;Vertentes;PE;2616209;261620;2015;19976;14625; 
+294;Água Nova;RN;2400406;240040;2015;3210;2055; 
+295;Rafael Fernandes;RN;2410504;241050;2015;5040;2841; 
+296;Jati;CE;2307205;230720;2015;7807;3296; 
+297;Jardim de Piranhas;RN;2405603;240560;2015;14606;11276;11459
+298;Luís Gomes;RN;2407005;240700;2015;10129;6625; 
+299;Penaforte;CE;2310605;231060;2015;8817;5679; 
+300;Pilões;RN;2410009;251160;2015;6728; ; 
+301;Juazeiro do Norte;CE;2307304;230730;2015;266022;222131;58507
+302;Maracanaú;CE;2307650;230765;2015;221504;147551;65227
+303;Barbalha;CE;2301901;230190;2015;58855;34498;3991
+304;Aquiraz;CE;2301000;230100;2015;77717;26004;13120
+305;Aracati;CE;2301109;230110;2015;72727;36102;9694
+306;Aurora;CE;2301703;230170;2015;24602;10359;1548
+307;Baixio;CE;2301802;230180;2015;6198;3307; 
+308;Barro;CE;2302008;230200;2015;22279;11332;1273
+309;Beberibe;CE;2302206;230220;2015;52310;8570;3280
+310;Cedro;CE;2303808;230380;2015;25013;12298;881
+311;Fortaleza;CE;2304400;230440;2015;2591188;2184943;1270591
+312;Caririaçu;CE;2303204;230320;2015;26858;15373; 
+313;Fortim;CE;2304459;230445;2015;15951;6122; 
+314;Cascavel;CE;2303501;230350;2015;70047;39608;1171
+315;Caucaia;CE;2303709;230370;2015;353932;240953;104674
+316;Eusébio;CE;2304285;230428;2015;51127;35342;4423
+317;Crato;CE;2304202;230420;2015;128680;127432;35527
+318;Chorozinho;CE;2303956;230395;2015;19192;6346;11590
+319;Granjeiro;CE;2304806;230480;2015;4494;1193;502
+320;Guaiúba;CE;2304954;230495;2015;25841;12787;2131
+321;Icapuí;CE;2305357;230535;2015;19418;19418; 
+322;Milagres;CE;2308302;230830;2015;28354;9145; 
+323;Ipaumirim;CE;2305704;230570;2015;12305;6207; 
+324;Icó;CE;2305407;230540;2015;67198;49536;17850
+325;Jaguaretama;CE;2306702;230670;2015;17997;7442;285
+326;Itaiçaba;CE;2306207;230620;2015;7656;2434; 
+327;Itaitinga;CE;2306256;230625;2015;38540;35546;708
+328;Jaguaribara;CE;2306801;230680;2015;11102;7700;5627
+329;Jaguaribe;CE;2306900;230690;2015;34561;32672;8253
+330;Missão Velha;CE;2308401;230840;2015;35240;11897;369
+331;Lavras da Mangabeira;CE;2307502;230750;2015;31383;14855; 
+332;Limoeiro do Norte;CE;2307601;230760;2015;58175;57593;9925
+333;Maranguape;CE;2307700;230770;2015;123570;71863;7088
+334;Mauriti;CE;2308104;230810;2015;46113;15001;2671
+335;Morada Nova;CE;2308708;230870;2015;61903;58000;1600
+336;Ocara;CE;2309458;230945;2015;25123;4874;777
+337;Pacajus;CE;2309607;230960;2015;68800;40004;1851
+338;Pacatuba;CE;2309706;230970;2015;80378;58004;30799
+339;Palhano;CE;2310001;231000;2015;9209;3326; 
+340;Porteiras;CE;2311108;231110;2015;15010;5178;867
+341;Russas;CE;2311801;231180;2015;75018;39333;10687
+342;Quixeré;CE;2311504;231150;2015;21572;5090; 
+343;São Gonçalo do Amarante;CE;2312403;231240;2015;47297;15927;5987
+344;Tabuleiro do Norte;CE;2313104;231310;2015;30263;15973;2041
+345;Umari;CE;2313708;231370;2015;7665;2451;4550
+346;Várzea Alegre;CE;2314003;231400;2015;40062;21501;17900
+347;Pindoretama;CE;2310852;231085;2015;20207;12100; 
+348;Parelhas;RN;2408904;240890;2015;21483;18032;17786
+349;Parnamirim;RN;2403251;261040;2015;21193;12236; 
+350;Passagem;RN;2409209;251070;2015;2383;2115; 
+351;Patu;RN;2409308;240930;2015;12706;417; 
+352;Pau dos Ferros;RN;2409407;240940;2015;29954;27622;3782
+353;Pedra Preta;RN;2409605;240960;2015;2568;982; 
+354;Pedro Avelino;RN;2409704;240970;2015;7059;4056;3256
+355;Pendências;RN;2409902;240990;2015;14751;10168;4223
+356;Solidão;PE;2614402;261440;2015;5949;2095; 
+357;Portalegre;RN;2410207;241020;2015;7811;4101; 
+358;Alagoinha;PE;2600609;250050;2015;14284;11100; 
+359;Rafael Godeiro;RN;2410603;241060;2015;3213;2028; 
+360;Barra de São Miguel;PB;2501708;250170;2015;5905; ; 
+361;Riacho da Cruz;RN;2410702;241070;2015;3485;1987; 
+362;Riacho de Santana;RN;2410801;241080;2015;4278;1451; 
+363;Rodolfo Fernandes;RN;2411007;241100;2015;4547;3843; 
+364;Santa Cruz;RN;2411205;251320;2015;6579;4176; 
+365;Sumé;PB;2516300;251630;2015;16784;14948;4375
+366;Barra de Santana;PB;2501575;250157;2015;8249;891; 
+367;Bayeux;PB;2501807;250180;2015;96140;77843;8793
+368;Belém do Brejo do Cruz;PB;2502003;250200;2015;7320;5130;7320
+369;Taperoá;PB;2516508;251650;2015;15376; ; 
+370;Bernardino Batista;PB;2502052;250205;2015;3356; ; 
+371;São José do Seridó;RN;2412401;241240;2015;4567;2972;2827
+372;São Miguel;RN;2412500;241250;2015;23274;15231; 
+373;Tenório;PB;2516755;251675;2015;3011;1200;1
+374;Triunfo;PB;2516805;251680;2015;9447; ; 
+375;Campina Grande;PB;2504009;250400;2015;405072;405072;357612
+376;Santana do Seridó;RN;2411429;241142;2015;2675;1626;1751
+377;São Rafael;RN;2412807;241280;2015;8347;5733;4977
+378;Toritama;PE;2615409;261540;2015;42123;34414; 
+379;Cacimba de Areia;PB;2503407;250340;2015;3713;1869; 
+380;Caraúbas;PB;2504074;250407;2015;4115;1918;2318
+381;Carrapateira;PB;2504108;250410;2015;2601; ; 
+382;Catolé do Rocha;PB;2504306;250430;2015;30179;22542;5803
+383;Uiraúna;PB;2516904;251690;2015;15228;12794; 
