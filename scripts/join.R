@@ -18,6 +18,8 @@ colnames(join) <- names
 #creating percentage
 m_hist <- mutate(join, taxa_esgoto = esgoto/populacao, taxa_agua = agua/populacao)
 
+write.table(join, file = "municipios_hist.csv", sep = ",", col.names = T, quote = T, fileEncoding = "UTF-8")
+
 # transform the data.frame into the described structure
 idsIndexes <- which(names(m_hist) != 'id' & names(m_hist) != 'nome')
 a <- lapply(1:nrow(m_hist),FUN=function(i){ 
