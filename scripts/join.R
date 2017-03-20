@@ -5,6 +5,9 @@ library(jsonlite)
 mun <- read.csv("../arcgis/AguaEsgotoHabitantesConsolidadosHistorico.csv", header = T, encoding = "UTF-8", stringsAsFactors = F, sep = ";")
 beneficiados <- read.csv("../arcgis/municipios_beneficiados.csv", header = T, encoding = "UTF-8", stringsAsFactors = F, sep = ",")
 
+mun <- na.omit(mun)
+beneficiados <- na.omit(beneficiados)
+
 #joing by city's name
 join <- left_join(beneficiados, mun, by = c("nome" = "municipio"))
 
@@ -15,10 +18,17 @@ join <- join %>% select(nome, populacao.y, agua.y, esgoto.y, ano.y, codigo_mun)
 names <- c("nome", "populacao", "agua", "esgoto", "ano", "codigo_mun")
 colnames(join) <- names
 
+join <- na.omit(join)
+
+#removing incosistences 
+join <- join %>% filter(agua <= populacao & esgoto <= populacao )
+
 #creating percentage
 m_hist <- mutate(join, taxa_esgoto = esgoto/populacao, taxa_agua = agua/populacao)
 
-write.table(m_hist, file = "municipios_hist.csv", sep = ";", col.names = T, quote = T, fileEncoding = "UTF-8")
+
+
+write.table(m_hist, file = "municipios_hist.csv", sep = ",", col.names = T, quote = T, fileEncoding = "UTF-8")
 
 # transform the data.frame into the described structure
 idsIndexes <- which(names(m_hist) != 'id' & names(m_hist) != 'nome')
