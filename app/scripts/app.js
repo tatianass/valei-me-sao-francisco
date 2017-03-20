@@ -35,5 +35,10 @@ angular
         url: '/about',
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
-    });
+    })
+    .state('equipe', {
+        url: '/equipe',
+        templateUrl: 'views/equipe.html',
+        controller: 'equipeCtrl'
+    });;
   });
