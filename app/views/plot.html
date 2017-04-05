@@ -14,7 +14,9 @@
 <script>
   var margin = {top: 40, right: 40, bottom: 40, left: 40};
   var width = 960 - margin.left - margin.right,
-      height = 480 - margin.top - margin.bottom;
+      height = 480 - margin.top - margin.bottom,
+      axisMargin = {left: 40, right: 10},
+      axisWidth = width - axisMargin.left - axisMargin.right;
 
   var svg = d3.select("#plot")
       .append("svg")
@@ -24,73 +26,68 @@
       .attr('class', 'map-chart');
 
   var
-    x = d3.scaleLinear().range([0, width]),
+    x = d3.scaleLinear().range([axisMargin.left, axisWidth]),
     xAxis = d3.axisBottom(x).tickFormat(d3.format("")),
     y = d3.scaleLinear().range([height, 0]),
-    yAxis = d3.axisLeft(y).tickFormat(d3.format(".0%"));
-
-  var line = d3.line()
-    .x(function(d) { return x(d.ano); })
-    .y(function(d) { return y(d.agua); });
+    yAxis = d3.axisRight(y).tickSize(width).tickFormat(d3.format(".0%")),
+    x1 = d3.scaleLinear().range([0, height+20]),
+    y1 = d3.scaleLinear().range([0, 25]),
+    colorRange = d3.scaleLinear().range([0, 1]),
+    area = d3.area()
+      .curve(d3.curveMonotoneX)
+      .x(function(d, i) { return x1(i); })
+      .y0(function(d) { return y1(d); })
+      .y1(function(d) { return y1(-d); });
 
   var g = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  d3.csv("historico.csv", function(error, data) {
+  d3.json("agua.json", function(error, data) {
     if (error) throw error;
-
-    // data.sort(function(a, b) {
-    //    return d3.ascending(+a.codigo_mun, +b.codigo_mun);
-    // })
-
-    // var
-    //   map = [],
-    //   municipio = "",
-    //   municipioAtual = "";
-    // data.forEach(function(d) {
-    //   municipio = d.codigo_mun;
-    //   if (municipio !== municipioAtual) {
-    //     municipioAtual = municipio;
-    //     map[municipioAtual] = {
-    //       codigo_mun: d.codigo_mun,
-    //       nome: d.nome,
-    //       valores: []
-    //     };
-    //   }
-    //   if (+d.agua > 0) {
-    //     map[municipioAtual].valores.push({
-    //       ano: +d.ano,
-    //       agua: +d.agua,
-    //       taxa_agua: +d.taxa_agua
-    //     });
-    //   }
-    // });
 
     x.domain([d3.min(data, function(d) { return +d.ano; }), d3.max(data, function(d) { return +d.ano; })]);
     y.domain([0, 1]);
 
+    var areas = g.append("g")
+      .attr("class", "areas");
+
+    var min = d3.min(data, function(d) { return d3.min(d.valores); });
+    var max = d3.max(data, function(d) { return d3.max(d.valores); });
+    colorRange.domain([min, max]);
+
+    data.forEach(function(d) {
+      x1.domain([0, d.valores.length]);
+      y1.domain([0, max])
+      areas.append("g")
+        .style("transform-origin", "left top")
+        .attr("transform", "translate("+(x(d.ano))+","+height+") rotate(-90)")
+        .selectAll(".serie")
+          .data([d.valores])
+        .enter().append("path")
+          .attr("fill", function(v) { return d3.interpolateRdBu(colorRange(d3.max(v))) })
+          .attr("class", "serie "+d.ano)
+          .attr("d", area)
+    });
+
+    xAxis.ticks(data.length);
+
     g.append("g")
      .attr("transform", "translate(0," + height + ")")
-     .call(xAxis);
+     .call(customXAxis);
     g.append("g")
-    .call(yAxis);
+     .call(customYAxis);
 
-    g.selectAll(".dot")
-    .data(data)
-    .enter().append("circle")
-      .attr("class", function(d) { return "dot "+d.nome})
-      .attr("r", 5)
-      .attr("cx", function(d) { return x(+d.ano);})
-      .attr("cy", function(d) { return y(+d.taxa_agua);})
-      .style("fill", "#2980b9")
-      .style("opacity", "0.1")
-      .on("mouseover", function(d) {
-        console.log(d.nome);
-      })
-      .on("mouseout", function(d) {
-          tooltip.transition()
-               .duration(500)
-               .style("opacity", 0);
-      });
+     function customXAxis(g) {
+       g.call(xAxis);
+       g.select(".domain").remove();
+     }
+
+    function customYAxis(g) {
+      g.call(yAxis);
+      g.select(".domain").remove();
+      g.selectAll(".tick:not(:first-of-type) line").attr("stroke", "#777").attr("stroke-dasharray", "2,2");
+      g.selectAll(".tick text").attr("x", 4).attr("dy", -4);
+    }
+
   });
 </script>
