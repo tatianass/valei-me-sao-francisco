@@ -96,3 +96,9 @@ footer {
   fill: #2c3e50;
   margin: auto;
 }
+
+.tick-default {
+  stroke: #777;
+  stroke-width: 1px;
+  stroke-dasharray: 2,2;
+}

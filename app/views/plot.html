@@ -1,9 +1,8 @@
 <main>
   <section class="section">
     <div class="section-header container text-center">
-      <h1>População total atendida com abastecimento de água</h1>
-      <p>Observa-se o percentual de população atendida com abastecimento
-      de água ao longo do tempo, entre 1995 e 2015</p>
+      <h1>Número de cidades </h1>
+      <p></p>
     </div>
     <div class="container">
       <div id="plot"></div>
@@ -15,7 +14,7 @@
   var margin = {top: 40, right: 40, bottom: 40, left: 40};
   var width = 960 - margin.left - margin.right,
       height = 480 - margin.top - margin.bottom,
-      axisMargin = {left: 40, right: 10},
+      axisMargin = {left: 60, right: 0},
       axisWidth = width - axisMargin.left - axisMargin.right;
 
   var svg = d3.select("#plot")
@@ -23,15 +22,15 @@
       .attr('version', '1.1')
       .attr('viewBox', '0 0 '+(width + margin.left + margin.right)+' '+(height + margin.top + margin.bottom))
       .attr('width', '100%')
-      .attr('class', 'map-chart');
+      .attr('class', 'plot-chart');
 
   var
     x = d3.scaleLinear().range([axisMargin.left, axisWidth]),
     xAxis = d3.axisBottom(x).tickFormat(d3.format("")),
     y = d3.scaleLinear().range([height, 0]),
-    yAxis = d3.axisRight(y).tickSize(width).tickFormat(d3.format(".0%")),
-    x1 = d3.scaleLinear().range([0, height+20]),
-    y1 = d3.scaleLinear().range([0, 25]),
+    yAxis = d3.axisRight(y).ticks(20).tickSize(width).tickFormat(d3.format(".0%")),
+    x1 = d3.scaleLinear().range([0, height]),
+    y1 = d3.scaleLinear().range([0, 35]),
     colorRange = d3.scaleLinear().range([0, 1]),
     area = d3.area()
       .curve(d3.curveMonotoneX)
@@ -53,20 +52,33 @@
 
     var min = d3.min(data, function(d) { return d3.min(d.valores); });
     var max = d3.max(data, function(d) { return d3.max(d.valores); });
-    colorRange.domain([min, max]);
+    // console.log(max);
 
     data.forEach(function(d) {
-      x1.domain([0, d.valores.length]);
+      x1.domain([0, d.valores.length-1]);
       y1.domain([0, max])
-      areas.append("g")
+      colorRange.domain(x1.domain());
+      var areaG = areas.append("g")
         .style("transform-origin", "left top")
         .attr("transform", "translate("+(x(d.ano))+","+height+") rotate(-90)")
         .selectAll(".serie")
           .data([d.valores])
-        .enter().append("path")
-          .attr("fill", function(v) { return d3.interpolateRdBu(colorRange(d3.max(v))) })
+        .enter().append("g");
+      areaG.append("path")
+          .attr("fill", function(v) { return d3.interpolateBlues(colorRange( v.indexOf(d3.max(v)))) })
           .attr("class", "serie "+d.ano)
-          .attr("d", area)
+          .attr("d", area);
+      areaG.append("line")
+          .attr("x0", function(v, i) { return x1(i) })
+          .attr("x1", function(v, i) { return x1(i) })
+          .attr("y0", 5)
+          .attr("y1", -5);
+      // d.valores.forEach(function(e, ei) {
+      //   areas.append("text")
+      //     .attr("y", x1(ei))
+      //     .attr("transform", "translate("+(x(d.ano))+",0)")
+      //     .text(e);
+      // })
     });
 
     xAxis.ticks(data.length);
@@ -85,8 +97,13 @@
     function customYAxis(g) {
       g.call(yAxis);
       g.select(".domain").remove();
-      g.selectAll(".tick:not(:first-of-type) line").attr("stroke", "#777").attr("stroke-dasharray", "2,2");
-      g.selectAll(".tick text").attr("x", 4).attr("dy", -4);
+      g.selectAll(".tick:not(:first-of-type) line").attr("class", "tick-default");
+      g.selectAll(".tick text")
+        .attr("x", 4)
+        .attr("dy", -4)
+        .style("display", function(v, i) {
+          return (i % 2) ? "none" : null;
+        });
     }
 
   });
